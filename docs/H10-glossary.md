@@ -10,6 +10,9 @@
 | **Objective vs subjective** | Acoustics vs perception — never one unexplained score |
 | **London-first portable schema** | Pilot Underground; core model stays generic railway |
 | **Non-affiliation** | Not TfL-operated / approved / endorsed |
+| **Pseudonymous** | Identifiers replaced but re-ID possible — still personal data |
+| **CLG** | Company limited by guarantee — default incorporation form (ADR-013) |
+| **Legal pack** | Canon drafts under `machine/governance/legal/` |
 
 ## Consistency rules
 

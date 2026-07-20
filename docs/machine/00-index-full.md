@@ -42,6 +42,12 @@ See [governance/repos.md](./governance/repos.md). Multi-repo is **accepted** ([A
 9. [research/09-subjective-experience.md](./research/09-subjective-experience.md)
 10. [research/10-open-data-reproducibility.md](./research/10-open-data-reproducibility.md)
 11. [research/11-funding-partnerships.md](./research/11-funding-partnerships.md)
+12. [research/12-uk-legal-governance-dp.md](./research/12-uk-legal-governance-dp.md) — entity, legal pack, GDPR/OSA gates
+
+### Governance legal pack
+
+- [governance/legal/README.md](./governance/legal/README.md) — canonical privacy/terms/moderation/cookies/takedown/ownership drafts
+- [governance/legal/consumers/](./governance/legal/consumers/) — ready-to-copy web + ios consumer copy
 
 ### Architecture (Wave 2)
 
@@ -50,7 +56,7 @@ See [governance/repos.md](./governance/repos.md). Multi-repo is **accepted** ([A
 - [architecture/calibration-and-quality-tiers.md](./architecture/calibration-and-quality-tiers.md)
 - [architecture/journey-segmentation-model.md](./architecture/journey-segmentation-model.md)
 - [architecture/public-data-model.md](./architecture/public-data-model.md)
-- [decisions/](./decisions/) — ADR-001 … ADR-012
+- [decisions/](./decisions/) — ADR-001 … ADR-013
 
 ### Schemas (Phase 1 prototype)
 

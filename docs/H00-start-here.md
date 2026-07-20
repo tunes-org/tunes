@@ -91,6 +91,7 @@ London-first; dense **repeated** observations over shallow network-wide coverage
 | H08 | [Pilot](./H08-pilot.md) | London Underground-first |
 | H09 | [Risks](./H09-risks.md) | Top risks only |
 | H10 | [Glossary](./H10-glossary.md) | Shared terms |
+| H11 | [Legal & governance](./H11-legal-governance.md) | Entity, legal pack, DPIA / beta gates |
 
 Also at repo root: [README](../README.md) (same baseline story).
 

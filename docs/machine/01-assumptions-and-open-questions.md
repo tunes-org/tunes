@@ -40,8 +40,8 @@ Separate **working assumptions**, **accepted decisions**, and **open questions**
 
 ## Additional open questions
 
-- Data controller identity and GDPR roles across repos/hosting
-- Whether ethics review is required before public beta campaigns
+- Exact retention periods and final lawful-basis wording (counsel) after ADR-013 entity path
+- Whether ethics review is required before public beta campaigns (see R11 / R12; DPIA required before public recruitment)
 - Duplicate / fraud detection thresholds without punishing honest edge cases
 - Whether GPS is used at all underground (likely topology snap, not raw trust)
 

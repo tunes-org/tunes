@@ -19,6 +19,8 @@
 | Location | Minimise; section assignment ≠ full GPS trail |
 | Speech | Incidental speech is a risk — prefer features over audio |
 | Free text | Extra personal-data risk — treat carefully |
+| Controller / entity | Named controller(s); CLG by launch (ADR-013) |
+| Legal copy | Canon in `tunes` legal pack; sync web/ios consumers |
 
 ## Contribution tiers (data sensitivity)
 
@@ -31,4 +33,4 @@
 
 ## Detail
 
-[privacy ethics](./machine/research/05-privacy-ethics.md) · [ios client flow](../../tunes-ios/docs/privacy-client-flow.md) · ADR-004/005
+[privacy ethics](./machine/research/05-privacy-ethics.md) · [UK legal R12](./machine/research/12-uk-legal-governance-dp.md) · [legal pack](./machine/governance/legal/README.md) · [H11](./H11-legal-governance.md) · [ios client flow](../../tunes-ios/docs/privacy-client-flow.md) · ADR-004/005/013

@@ -12,14 +12,17 @@
 6. **Explore the map** — with honesty explanation
 7. **Open data** — releases, licence, checksums, citation
 8. **Methodology** — protocol, metrics, tiers, calibration hierarchy
-9. **Privacy notice** — controller, retention, withdrawal
+9. **Privacy notice** — controller, retention, withdrawal ([governance/legal/privacy-notice.md](./governance/legal/privacy-notice.md))
 10. **Contributor guide** — safe practice, alignment, metadata
 11. **Researcher guide** — schema, reproducibility, known biases
 12. **Data dictionary**
-13. **Governance** — ADRs, decision log, CoC
-14. **Corrections & disputes**
-15. **Press / FAQ**
+13. **Governance** — ADRs, decision log, CoC, [ownership statement](./governance/legal/governance-and-ownership.md)
+14. **Corrections & disputes** — [takedown/reporting](./governance/legal/takedown-and-reporting.md)
+15. **Press / FAQ** — [claim-language checklist](./governance/legal/claim-language-checklist.md)
 16. **Contact**
+17. **Terms · Cookies · Moderation** — legal pack siblings
+
+Canonical legal drafts live in `tunes`; public pages ship from `tunes-web` via [legal/consumers/tunes-web/](./governance/legal/consumers/tunes-web/).
 
 ## Citation (draft shape)
 

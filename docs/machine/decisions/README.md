@@ -14,5 +14,6 @@
 | [ADR-010](./ADR-010-subjective-timing.md) | Subjective survey timing | Accepted |
 | [ADR-011](./ADR-011-claim-language.md) | Claim language | Accepted |
 | [ADR-012](./ADR-012-licences.md) | Licences (provisional) | Accepted provisional |
+| [ADR-013](./ADR-013-controller-and-entity.md) | Controller identity + entity form (CLG) | Accepted provisional |
 
 See also [../governance/decision-log.md](../governance/decision-log.md).

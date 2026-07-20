@@ -16,6 +16,7 @@ All **Accepted** unless noted. Full ADRs under [`machine/decisions/`](./machine/
 | ADR-010 | Subjective survey **after** journey; separate from objective |
 | ADR-011 | **Strict claim language**; no unsupported health/risk claims |
 | ADR-012 | Licences **provisional** (MIT code / CC BY 4.0 docs+data) — legal before publish |
+| ADR-013 | **Named controller(s)**; informal → **CLG** by launch; CIC optional later |
 | D-SEC | Canonical unit = **station-to-station** section + duration |
 | D-AFFIL | **No** implied TfL endorsement |
 
@@ -25,7 +26,7 @@ All **Accepted** unless noted. Full ADRs under [`machine/decisions/`](./machine/
 | --- | --- |
 | Final licences | Legal |
 | Device correction profiles | Lab + field experiments |
-| Controller / retention | Legal + privacy |
+| Named controller contact + DPIA | Founders + privacy counsel before beta |
 | Launch network breadth | Stakeholder + coverage evidence |
 
 ## Detail

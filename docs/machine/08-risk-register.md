@@ -18,13 +18,18 @@
 | R14 | International expansion complexity | Medium | Low near-term | Portable schema; delay Phase 10 | tunes |
 | R15 | Alignment errors → wrong section stats | High | Medium | User confirmation gate; confidence dims | ios |
 | R16 | Quiet-room mistaken for calibration | Medium | Medium | Explicit UX + docs | ios + tunes |
+| R17 | Unclear data controller / personal liability | High | Medium | ADR-013; name contact; CLG on trigger/launch | tunes |
+| R18 | Public UGC / Online Safety Act duties | High | Medium | Pre-moderate or delay comments; report + complaints; Ofcom-oriented risk assessment | web + tunes |
+| R19 | PECR / cookie non-compliance | Medium | Medium | Cookie notice; no analytics before consent/exception | web |
+| R20 | Re-identification via open data or hashes | High | Medium | Anonymisation assessment; hashes offline from releases | tunes + web |
+| R21 | Special-category / health framing creep | High | Low–Med | ADR-011; avoid Art 9 fields at launch | tunes + ios |
 
 ## Recommendation
 
-Treat R01, R03, R06, R09 as launch blockers; review this register each phase exit.
+Treat R01, R03, R06, R09, **R17**, **R18** as launch blockers; complete DPIA before public recruitment (R12); review this register each phase exit.
 
 **Confidence:** Medium.
 
-**Depends on experiment/legal/user-test?** Legal for R03/R11; experiments for R04/R15.
+**Depends on experiment/legal/user-test?** Legal for R03/R11/R17–R21; experiments for R04/R15.
 
-**Links:** [04-roadmap.md](./04-roadmap.md); [decisions/ADR-011-claim-language.md](./decisions/ADR-011-claim-language.md).
+**Links:** [04-roadmap.md](./04-roadmap.md); [decisions/ADR-011-claim-language.md](./decisions/ADR-011-claim-language.md); [decisions/ADR-013-controller-and-entity.md](./decisions/ADR-013-controller-and-entity.md); [research/12-uk-legal-governance-dp.md](./research/12-uk-legal-governance-dp.md); [governance/legal/README.md](./governance/legal/README.md).

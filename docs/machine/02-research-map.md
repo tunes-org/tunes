@@ -17,6 +17,7 @@ Structured map of Wave 1 research areas. Prefer **primary sources** (standards, 
 | R9 | [research/09-subjective-experience.md](./research/09-subjective-experience.md) | Perception survey | Charter | Timing; separation from objective |
 | R10 | [research/10-open-data-reproducibility.md](./research/10-open-data-reproducibility.md) | Versioned releases owned by `tunes` | Charter | Release layers; changelog |
 | R11 | [research/11-funding-partnerships.md](./research/11-funding-partnerships.md) | Useful-to-TfL-not-affiliated | Charter | Partnership sequencing |
+| R12 | [research/12-uk-legal-governance-dp.md](./research/12-uk-legal-governance-dp.md) | Entity, legal pack, GDPR, OSA | Charter, R5, R11 | Controller; CLG triggers; DPIA timing |
 
 ## Source types by area
 
@@ -24,7 +25,7 @@ Structured map of Wave 1 research areas. Prefer **primary sources** (standards, 
 | --- | --- |
 | Acoustics | ISO 3381, ISO 1996-1, IEC 61672 / 61260 / 60942; methodology notes from R3291 FOI (reference only) |
 | Devices | Apple audio session docs; peer-reviewed phone SLM studies (cite, don’t invent numbers) |
-| Privacy | UK GDPR / DPA 2018 guidance; ICO; research ethics frameworks |
+| Privacy | UK GDPR / DPA 2018 guidance; ICO; PECR; research ethics frameworks; Online Safety Act / Ofcom where UGC |
 | Citizen science | Established project handbooks (e.g. noise mapping, biodiversity) — practices, not fake success rates |
 | Transport model | Open network data models; TfL open data where licence allows (operational data ≠ endorsement) |
 
@@ -40,7 +41,7 @@ Agents on R2, R4, calibration architecture, pilot design, or claim language **mu
 
 ## Recommendation
 
-Execute R1–R11 as disjoint files; resolve conflicts via ADRs in `tunes`, not by silently editing peer research docs.
+Execute R1–R12 as disjoint files; resolve conflicts via ADRs in `tunes`, not by silently editing peer research docs.
 
 **Confidence:** High for map structure.
 

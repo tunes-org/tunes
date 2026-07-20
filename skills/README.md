@@ -15,10 +15,13 @@ skills/
   tunes-docs/          ← edit SKILL.md + assets here
     SKILL.md
     templates.md
+  tunes-legal-privacy/
+    SKILL.md
+    feature-gate-checklist.md
 
 .cursor/skills/tunes-docs  → ../../skills/tunes-docs
-.claude/skills/tunes-docs  → ../../skills/tunes-docs
-.agents/skills/tunes-docs  → ../../skills/tunes-docs
+.cursor/skills/tunes-legal-privacy → ../../skills/tunes-legal-privacy
+(same pattern for .claude/skills and .agents/skills)
 ```
 
 ## Rules
@@ -41,3 +44,4 @@ ln -sfn ../../skills/<name> .agents/skills/<name>
 | Name | Purpose |
 | --- | --- |
 | [`tunes-docs`](./tunes-docs/SKILL.md) | Human + machine documentation standard |
+| [`tunes-legal-privacy`](./tunes-legal-privacy/SKILL.md) | UK legal/privacy/claim gates; do/don’t for features across repos |

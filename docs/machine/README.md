@@ -9,9 +9,9 @@ Long-form research, ADRs, architecture, backlog, tests, pilot protocol.
 | Path | Contents |
 | --- | --- |
 | [00-index-full.md](./00-index-full.md) | Full reading map + glossary |
-| [governance/](./governance/) | Charter, scope, repos, licences, decision-log |
-| [decisions/](./decisions/) | ADR-001 … ADR-012 |
-| [research/](./research/) | Research programme 01–11 |
+| [governance/](./governance/) | Charter, scope, repos, licences, decision-log, [legal/](./governance/legal/) |
+| [decisions/](./decisions/) | ADR-001 … ADR-013 |
+| [research/](./research/) | Research programme 01–12 |
 | [architecture/](./architecture/) | System, privacy boundaries, tiers, journey, public data |
 | [04-roadmap.md](./04-roadmap.md) … [09-…](./09-public-docs-outline.md) | Synthesis deliverables |
 | [05-github-backlog.md](./05-github-backlog.md) | Epics / issues (markdown) |

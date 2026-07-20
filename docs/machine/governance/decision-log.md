@@ -16,6 +16,7 @@ Template for programme-level decisions. Detailed rationale lives in ADRs under `
 | D-010 | 2026-07-17 | Subjective survey after journey; separate from objective | Accepted | [ADR-010](../decisions/ADR-010-subjective-timing.md) |
 | D-011 | 2026-07-17 | Strict claim language; no unsupported risk/health claims | Accepted | [ADR-011](../decisions/ADR-011-claim-language.md) |
 | D-012 | 2026-07-17 | Provisional MIT (code) + CC BY 4.0 (docs/data) | Accepted provisional | [ADR-012](../decisions/ADR-012-licences.md) |
+| D-013 | 2026-07-20 | Named controller(s); informal → CLG by launch; CIC later optional | Accepted provisional | [ADR-013](../decisions/ADR-013-controller-and-entity.md) |
 | D-SEC | 2026-07-17 | Canonical unit = station-to-station section with duration | Accepted | Architecture + R2/R6 |
 | D-AFFIL | 2026-07-17 | No implied TfL endorsement | **Accepted** | Charter |
 
