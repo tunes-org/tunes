@@ -10,8 +10,9 @@
 | By limited beta (if trigger) or **public launch** | Company **limited by guarantee** |
 | Later (optional) | CIC only if funders need asset lock |
 
-**Stack (processors):** Vercel · Supabase · Google OAuth · Apple Sign In (planned iOS) · site https://tunesurvey.com
+**Stack (processors):** Vercel · Supabase · Google OAuth · Apple Sign In (planned iOS) · site https://tunesurvey.com  
 
+**ICO fee (self-assessment):** Tier 1 **£52** — pay registration (browser left open for you).
 ## Before public beta (minimum docs)
 
 Privacy notice · Terms/contributor rules · Moderation · Cookies · Takedown/reporting · Ownership/governance  

@@ -36,6 +36,7 @@
 | Reports / takedown | manglekuo@gmail.com |
 | Website | https://tunesurvey.com |
 | Processors | Vercel (host), Supabase (DB/auth), Google OAuth; Apple Sign In planned for iOS |
+| ICO fee | Tier 1 **£52** — see [ico-fee-self-assessment-2026-07-20.md](./ico-fee-self-assessment-2026-07-20.md); pay via ICO register |
 
 Update this table and re-sync consumers if any field changes.
 
