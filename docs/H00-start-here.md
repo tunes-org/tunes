@@ -1,5 +1,7 @@
 # H00 — Start here (humans)
 
+**Baseline story (repos + why TUNES exists):** read the root [README](../README.md) first. This page is the short path through the rest of the human briefs.
+
 Two doc layers:
 
 | Layer | Prefix / folder | For | Style |
@@ -9,7 +11,7 @@ Two doc layers:
 
 **Not** operated, approved, or endorsed by TfL.
 
-## Read in order (≈15 min)
+## Read in order (≈15 min after the README)
 
 | # | Doc | One line |
 | --- | --- | --- |
