@@ -4,6 +4,8 @@ This guide defines how AI coding agents change the `tunes` repository without in
 
 **For:** autonomous and assisted coding agents, reviewers, and maintainers.
 
+**Assumptions:** existing documentation and accepted ADRs are canonical; agents have no authority to fill evidence, legal, or product gaps by inference.
+
 **Owns:** contribution discipline, source routing, terminology, uncertainty handling, schema/ADR expectations, and pull-request quality.
 
 **Does not own:** scientific decisions, legal approval, product implementation in sibling repositories, or authority to change accepted ADRs.
