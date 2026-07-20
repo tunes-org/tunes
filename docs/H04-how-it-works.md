@@ -11,14 +11,15 @@
 | 5 | `tunes-web` | Inspect · validate · quality flags · aggregate · edit |
 | 6 | `tunes-web` → `tunes` | Versioned open release + methodology pages |
 
-## Layers (keep separate)
+## Evidence and release layers (keep separate)
 
 | Layer | Contents |
 | --- | --- |
-| Raw | PCM on device (default) |
-| Derived | Metrics, spectra, flags, provenance |
-| Public map | Aggregates + uncertainty + sample size |
-| Subjective | Perception answers — **never** blended into one unexplained score |
+| Device-local (outside public release layers) | Raw PCM on device by default |
+| L0 observations | Consented derived features, flags, provenance and separate perception answers |
+| L1 reprocessing | New derived results from a named pipeline version |
+| L2 aggregates | Section summaries, uncertainty, tier mix and sample size |
+| L3 interpretations | Map styles, rankings and passenger-facing copy; perception remains labelled and separate from objective acoustics |
 
 ## Comparison unit
 

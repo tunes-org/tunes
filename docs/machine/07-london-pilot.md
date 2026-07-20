@@ -60,4 +60,4 @@ Run pilot as Phase 6 only after Phases 2–4 spikes; publish pilot dataset as cl
 
 **Depends on experiment/legal/user-test?** Yes — all three.
 
-**Links:** [04-roadmap.md](./04-roadmap.md); [08-risk-register.md](./08-risk-register.md); ADR-001.
+**Links:** [04-roadmap.md](./04-roadmap.md); [08-risk-register.md](./08-risk-register.md); [ADR-001](./decisions/ADR-001-initial-network-scope.md); [H08 — London pilot](../H08-pilot.md).

@@ -8,7 +8,7 @@ Long-form research, ADRs, architecture, backlog, tests, pilot protocol.
 
 | Path | Contents |
 | --- | --- |
-| [00-index-full.md](./00-index-full.md) | Full reading map + glossary |
+| [00-index-full.md](./00-index-full.md) | Full reading map + pointer to the canonical H10 glossary |
 | [CONTRIBUTING.md](./CONTRIBUTING.md) | AI-agent contribution and consistency rules |
 | [governance/](./governance/) | Charter, scope, repos, licences, decision-log, [legal/](./governance/legal/) |
 | [decisions/](./decisions/) | ADR-001 … ADR-013 |

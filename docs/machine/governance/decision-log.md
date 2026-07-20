@@ -41,3 +41,4 @@ Template for programme-level decisions. Detailed rationale lives in ADRs under `
 | 10 | ADR-010 |
 | 11 | ADR-011 |
 | 12 | ADR-012 (legal still required before publish) |
+| 13 | ADR-013 (named pre-incorporation controller; CLG by launch) |

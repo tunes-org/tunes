@@ -78,4 +78,4 @@ Do not skip Phase 2–3 before map work; a pretty map on bad sections destroys t
 
 **Depends on experiment/legal/user-test?** Yes from Phase 2 onward.
 
-**Links:** [05-github-backlog.md](./05-github-backlog.md); [06-test-strategy.md](./06-test-strategy.md).
+**Links:** [05-github-backlog.md](./05-github-backlog.md); [06-test-strategy.md](./06-test-strategy.md); [H07 — Roadmap](../H07-roadmap.md).

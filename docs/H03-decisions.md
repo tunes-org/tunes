@@ -28,7 +28,7 @@ All **Accepted** unless noted. Full ADRs under [`machine/decisions/`](./machine/
 | --- | --- |
 | Final licences | Legal |
 | Device correction profiles | Lab + field experiments |
-| Named controller contact + DPIA | Founders + privacy counsel before beta |
+| DPIA and final legal-policy review | Founders + privacy counsel before beta |
 | Launch network breadth | Stakeholder + coverage evidence |
 
 ## Detail

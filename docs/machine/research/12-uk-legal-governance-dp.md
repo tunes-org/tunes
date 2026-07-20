@@ -2,7 +2,7 @@
 
 **Status:** Wave 1 research recommendation  
 **Owns:** Entity form recommendation; minimum public legal pack; GDPR classification and lawful-basis sketch; DPIA timing; OSA/UGC posture; staged launch checklist; founder decision list  
-**Does not own:** Solicitor-signed contracts; final controller identity (founders name it); application code; TfL affiliation  
+**Does not own:** Solicitor-signed contracts; the controller identity and entity transition accepted in ADR-013; application code; TfL affiliation  
 **Must-read inputs:** [project-charter.md](../governance/project-charter.md), [05-privacy-ethics.md](./05-privacy-ethics.md), [11-funding-partnerships.md](./11-funding-partnerships.md), [ADR-011](../decisions/ADR-011-claim-language.md), [ADR-013](../decisions/ADR-013-controller-and-entity.md)
 
 **Disclaimer:** Operational guidance for founders and agents — **not legal advice**. Counsel should review before public beta. Material claims link to official UK sources.

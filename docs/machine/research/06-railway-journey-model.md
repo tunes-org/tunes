@@ -57,7 +57,7 @@ The following is a decision-oriented conceptual model for Phase 1 JSON examples 
 | **Direction** | Travel orientation on a line/branch | Prefer stable IDs + localised labels (eastbound/westbound are labels) |
 | **Station** | Stop with stable ID | Shareable across systems where physically shared |
 | **Platform** | Boarding face at a station | Optional for v1 map; valuable for research metadata later |
-| **Section** | **Station-to-station** directed segment | Canonical comparison unit — see §4 |
+| **Section** | Directed interval between consecutive stations | Canonical comparison unit — see §4 |
 | **Track / running direction** | Physical sense if known | Optional; do not require for crowd contributions |
 
 ### 3.3 Service and vehicle

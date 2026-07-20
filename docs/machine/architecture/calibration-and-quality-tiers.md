@@ -50,4 +50,4 @@ Gate public map colouring on tier + sample size; always show tier mix and uncert
 
 **Depends on experiment/legal/user-test?** **Experiments** for model profiles; pilot for tier gates.
 
-**Links:** [../research/04-calibration-uncertainty.md](../research/04-calibration-uncertainty.md); [../research/02-acoustic-methodology.md](../research/02-acoustic-methodology.md); [../decisions/ADR-006-quality-tiers.md](../decisions/ADR-006-quality-tiers.md).
+**Links:** [../research/04-calibration-uncertainty.md](../research/04-calibration-uncertainty.md); [../research/02-acoustic-methodology.md](../research/02-acoustic-methodology.md); [../decisions/ADR-006-quality-tiers.md](../decisions/ADR-006-quality-tiers.md); [H06 — Quality tiers](../../H06-quality-tiers.md).

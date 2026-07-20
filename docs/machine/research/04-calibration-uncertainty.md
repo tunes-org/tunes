@@ -88,7 +88,7 @@ It **cannot**:
 
 ## 5. Uncertainty dimensions (keep separate)
 
-Confidence must not collapse into one universal score. At minimum, persist and (where shown) communicate these dimensions:
+Confidence must not collapse into one universal score. The following are research-analysis questions, not a second set of schema fields:
 
 | Dimension | Question it answers | Typical drivers |
 | --- | --- | --- |
@@ -99,6 +99,8 @@ Confidence must not collapse into one universal score. At minimum, persist and (
 | **Placement** | Pocket / bag / hand / seat height effects? | User metadata, protocol adherence |
 | **Algorithmic** | Metrics / band extraction / weighting pipeline uncertainty? | Processing version, clipping, AGC/voice processing flags |
 | **Route-inference** | Is this energy assigned to the correct **section** and `T`? | Alignment confidence (R7), manual corrections |
+
+The persisted contract uses the six canonical dimensions in the JSON Schema and [calibration architecture](../architecture/calibration-and-quality-tiers.md): `acoustic_level`, `frequency_content`, `journey_assignment`, `device_calibration`, `user_metadata`, and `subjective_response`. Absolute, relative, and repeatability analyses use those fields together with provenance; placement and algorithmic effects remain explicit metadata, flags, and pipeline versions rather than additional confidence fields.
 
 ### Honesty rules (non-negotiable)
 

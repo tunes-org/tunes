@@ -35,4 +35,4 @@ Keep scientific releases in `tunes` even if `tunes-web` generates them, so app d
 
 **Depends on experiment/legal/user-test?** No for topology; yes for upload payload fields.
 
-**Links:** [data-flow-and-privacy-boundaries.md](./data-flow-and-privacy-boundaries.md); [../governance/repos.md](../governance/repos.md); [../decisions/ADR-003-multi-repo.md](../decisions/ADR-003-multi-repo.md).
+**Links:** [data-flow-and-privacy-boundaries.md](./data-flow-and-privacy-boundaries.md); [../governance/repos.md](../governance/repos.md); [../decisions/ADR-003-multi-repo.md](../decisions/ADR-003-multi-repo.md); [H04 — How it works](../../H04-how-it-works.md).

@@ -36,4 +36,4 @@ Freeze section-as-unit for public comparison; allow multi-section sessions but r
 
 **Depends on experiment/legal/user-test?** **Experiments + user tests** for alignment UX (`tunes-ios`).
 
-**Links:** [../research/06-railway-journey-model.md](../research/06-railway-journey-model.md); [../research/07-journey-alignment.md](../research/07-journey-alignment.md); [../decisions/ADR-002-generic-railway-schema.md](../decisions/ADR-002-generic-railway-schema.md).
+**Links:** [../research/06-railway-journey-model.md](../research/06-railway-journey-model.md); [../research/07-journey-alignment.md](../research/07-journey-alignment.md); [../decisions/ADR-002-generic-railway-schema.md](../decisions/ADR-002-generic-railway-schema.md); [H16 — Schema](../../H16-schema.md).
