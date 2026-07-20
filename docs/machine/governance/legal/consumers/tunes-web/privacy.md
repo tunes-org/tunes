@@ -19,7 +19,7 @@ TUNES is **independent**. It is **not** operated, approved, or endorsed by Trans
 **Contact:** manglekuo@gmail.com  
 **Website:** https://tunesurvey.com  
 
-Until a company limited by guarantee is incorporated, Hao-Tsun Kuo is the controller. After incorporation, that company becomes the controller (see [governance-and-ownership.md](./governance-and-ownership.md)).
+Until a company limited by guarantee is incorporated, Hao-Tsun Kuo is the controller. After incorporation, that company becomes the controller (see [governance and ownership](./governance.md)).
 
 You can complain to the [Information Commissioner’s Office (ICO)](https://ico.org.uk/make-a-complaint/).
 
@@ -33,7 +33,7 @@ You can complain to the [Information Commissioner’s Office (ICO)](https://ico.
 | Contribution (default) | Derived acoustic metrics, spectra summaries, station-to-station section IDs, quality flags, device model/OS class, app and pipeline versions, optional perception answers | **No raw audio** by default |
 | Consent metadata | Notice version, privacy tier, timestamp, purposes accepted | Accountability |
 | Security / abuse | IP address, rate-limit signals, hashed identifiers | Short retention; not published |
-| Website technical | Cookies / similar tech as in the [cookie notice](./cookie-notice.md) | PECR rules apply |
+| Website technical | Cookies / similar tech as in the [cookie notice](./cookies.md) | PECR rules apply |
 | User-generated content | Votes, comments (if enabled) | Moderated; may be personal data |
 
 **Raw audio** stays on your device unless a separate, clearly labelled research tier ever applies (not the default product path).

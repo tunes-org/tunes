@@ -7,7 +7,7 @@ Re-create epics idempotently: `./scripts/create-backlog-issues.sh`
 ## Epic E0 — Programme foundations (`repo:tunes`)
 
 - Problem: Need shared charter and decisions
-- Scope: Governance docs, ADR-001–012, indexes
+- Scope: Governance docs, ADR-001–013, indexes
 - Non-goals: App code
 - Acceptance: Reading order works; ADR-003 accepted
 - Privacy/data: N/A beyond licence provisional

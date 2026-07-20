@@ -43,7 +43,7 @@ Treat existing documents as canonical within their stated maturity. An accepted 
 
 | Use | Avoid or qualify |
 | --- | --- |
-| **section** = directed station-to-station segment + duration | vague “segment” for the public comparison unit |
+| **section** = directed interval between consecutive stations + duration | vague “segment” for the public comparison unit; reserve **segment** for timeline intervals |
 | `LAeq,T`, `LCeq,T`, `LCpeak`, named bands | “noise score” or a bare dB value |
 | **reported discomfort** / **perceived loudness** | treating perception as measured acoustics |
 | **quieter within the dataset’s limits** | quiet, safe, healthy, risk-free |

@@ -2,6 +2,8 @@
 
 ## Happy path (default)
 
+This architecture summary groups the required eight-step contribution flow in [R5](../research/05-privacy-ethics.md). R5 remains canonical for the recorder’s step-by-step privacy sequence.
+
 1. User records on device (`tunes-ios`) — PCM + motion stay local
 2. On-device / local processing extracts **derived acoustic features** per candidate section
 3. App suggests station-to-station boundaries; user corrects
@@ -43,4 +45,4 @@ Ship v1 with derived-only uploads; treat any raw/excerpt path as a separate ADR-
 
 **Depends on experiment/legal/user-test?** Legal + privacy threat model before public beta.
 
-**Links:** [../research/05-privacy-ethics.md](../research/05-privacy-ethics.md); `[privacy-client-flow.md](../../../../tunes-ios/docs/privacy-client-flow.md)`; [../decisions/ADR-005-derived-only-default.md](../decisions/ADR-005-derived-only-default.md).
+**Links:** [../research/05-privacy-ethics.md](../research/05-privacy-ethics.md); [H14 recorder](../../H14-recorder.md); `[privacy-client-flow.md](../../../../tunes-ios/docs/privacy-client-flow.md)`; [../decisions/ADR-005-derived-only-default.md](../decisions/ADR-005-derived-only-default.md).

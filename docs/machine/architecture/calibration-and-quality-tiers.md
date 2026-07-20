@@ -9,13 +9,13 @@ Informed by [../acoustic-survey-methodology.md](../acoustic-survey-methodology.m
 | 0 | Unknown consumer device | Informal only |
 | 1 | Known model, no project profile | Tier C candidate |
 | 2 | Model profile from controlled experiments | Tier B |
-| 3 | Individual field offset vs reference | Tier B+/A- support |
+| 3 | Individual field offset vs reference | Tier B or Tier A eligibility under the documented protocol |
 | 4 | External calibrated microphone | Tier A candidate |
 | 5 | Professional SLM survey protocol | Tier A / reference campaigns |
 
 **Quiet-room / noise-floor check** may detect obstruction or malfunction; it is **not** calibration.
 
-## Working quality tiers
+## Quality tiers (accepted working labels)
 
 | Tier | Meaning (working) |
 | --- | --- |

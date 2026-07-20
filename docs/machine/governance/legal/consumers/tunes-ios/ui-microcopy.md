@@ -26,7 +26,7 @@ Optional: would you consider this journey suitable for a child you care for? Thi
 ## Quality / uncertainty
 
 ```
-Phone measurements are survey-grade. Quality tier and sample context matter.
+Phone measurements are survey-grade at best. Quality tier and sample context matter.
 ```
 
 ## Non-affiliation (about screen)

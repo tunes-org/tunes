@@ -19,6 +19,12 @@ See [governance/repos.md](./governance/repos.md). Multi-repo is **accepted** ([A
 
 ## Reading order
 
+### Agents and contributors
+
+1. [CONTRIBUTING.md](./CONTRIBUTING.md)
+2. [TUNES documentation skill](../../skills/tunes-docs/SKILL.md)
+3. [Legal/privacy skill](../../skills/tunes-legal-privacy/SKILL.md) when the change touches personal data, consent, location, open releases, or claims
+
 ### Foundations
 
 1. [governance/project-charter.md](./governance/project-charter.md)
@@ -29,7 +35,9 @@ See [governance/repos.md](./governance/repos.md). Multi-repo is **accepted** ([A
 6. [governance/licences.md](./governance/licences.md)
 7. [governance/decision-log.md](./governance/decision-log.md)
 
-### Research (Wave 1)
+### Research rationale (historical recommendations)
+
+Accepted ADRs and current architecture are binding where later documents differ from these research notes.
 
 1. [research/01-citizen-science.md](./research/01-citizen-science.md)
 2. [research/02-acoustic-methodology.md](./research/02-acoustic-methodology.md) — read with [acoustic-survey-methodology.md](./acoustic-survey-methodology.md)
@@ -49,7 +57,7 @@ See [governance/repos.md](./governance/repos.md). Multi-repo is **accepted** ([A
 - [governance/legal/README.md](./governance/legal/README.md) — canonical privacy/terms/moderation/cookies/takedown/ownership drafts
 - [governance/legal/consumers/](./governance/legal/consumers/) — ready-to-copy web + ios consumer copy
 
-### Architecture (Wave 2)
+### Current architecture
 
 - [architecture/system-overview.md](./architecture/system-overview.md)
 - [architecture/data-flow-and-privacy-boundaries.md](./architecture/data-flow-and-privacy-boundaries.md)
@@ -71,30 +79,32 @@ See [governance/repos.md](./governance/repos.md). Multi-repo is **accepted** ([A
 - [08-risk-register.md](./08-risk-register.md)
 - [09-public-docs-outline.md](./09-public-docs-outline.md)
 
+### Human topic briefs
+
+- [H12 — Measurement philosophy](../H12-measurement-philosophy.md)
+- [H13 — Public map](../H13-public-map.md)
+- [H14 — Recorder](../H14-recorder.md)
+- [H15 — Railway noise taxonomy](../H15-noise-taxonomy.md)
+- [H16 — Schema](../H16-schema.md)
+- [H17 — Portability](../H17-portability.md)
+- [H18 — Assumptions](../H18-assumptions.md)
+- [H19 — Why TUNES exists](../H19-why-tunes-exists.md)
+
 ## Shared glossary
 
-| Term | Meaning |
-| --- | --- |
-| **Section** | Canonical public comparison unit: **station-to-station** journey segment, with duration T |
-| **Derived features** | Acoustic metrics / spectra computed on device or in pipeline — **default upload payload** |
-| **Raw audio** | PCM waveform; **stays on device by default** (ADR-004) |
-| **Quality tiers A–E** | Honest contribution grades; low tiers ≠ high on the map (ADR-006) |
-| **Survey grade** | In-service crowd data is survey-grade at best — never implied engineering-grade / Class 1 |
-| **Objective vs subjective** | Acoustic metrics vs perception survey; never blended into one unexplained score |
-| **London-first portable schema** | Pilot Underground-first; core model uses generic railway concepts (ADR-001/002) |
-| **Non-affiliation** | Not operated, approved, or endorsed by TfL |
+The canonical short definitions live in [H10 — Glossary](../H10-glossary.md). Implementation vocabulary is defined by the linked schema, architecture, research, and ADR sources; do not maintain a second glossary here.
 
 ## Consistency rules (post-Wave-1 pass)
 
 - **Section unit** = station-to-station everywhere (research, architecture, pilot, ios alignment)
 - **Privacy default** = derived-only after local review + consent
-- **Tiers** = A–E working labels; map honesty required
+- **Tiers** = accepted A–E quality grades; map honesty required
 - **Repo ownership** = science in `tunes`; capture in `tunes-ios`; map/pipeline in `tunes-web`
 - **No invented statistics**; cite experiments when numbers appear later
 
 ## Source briefs (kept)
 
-- [research-plan.md](./research-plan.md)
+- [research-plan.md](./research-plan.md) — original execution brief; later ADRs and architecture are canonical where they differ
 - [acoustic-survey-methodology.md](./acoustic-survey-methodology.md) — TfL R3291 practice notes as methodology reference only
 
 ## Sibling product docs

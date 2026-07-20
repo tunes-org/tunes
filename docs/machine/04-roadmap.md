@@ -6,7 +6,7 @@ Spans **`tunes`**, **`tunes-ios`**, **`tunes-web`**. Docs-only execution complet
 
 - **Objective:** Charter, scope, repos, licences provisional, decision log, research map
 - **Repos:** `tunes` governance docs; ADR-003; sibling repo stubs
-- **Exit:** Shared glossary; reading order in `00-index.md`
+- **Exit:** Shared glossary; reading order in `00-index-full.md`
 - **Go/no-go:** Principles agreed; no scientific validity claims yet
 
 ## Phase 1 — Methodology & schema prototype

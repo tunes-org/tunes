@@ -6,7 +6,7 @@
 **Version:** 0.1.0-draft  
 **Last-updated:** 2026-07-20
 
-These terms govern use of TUNES websites, apps, and contribution features operated by `Hao-Tsun Kuo` (“we”, “us”). By using TUNES you agree to these terms. Privacy is described in the [privacy notice](./privacy-notice.md).
+These terms govern use of TUNES websites, apps, and contribution features operated by `Hao-Tsun Kuo` (“we”, “us”). By using TUNES you agree to these terms. Privacy is described in the [privacy notice](./privacy.md).
 
 ---
 
@@ -59,8 +59,8 @@ If enabled:
 - Be respectful; no harassment, hate, or illegal content  
 - No doxxing, threats, or impersonation of TfL / operators / officials  
 - No unsupported medical or “acoustic risk” claims presented as fact  
-- We may moderate, refuse, or remove content under the [moderation policy](./moderation-policy.md)  
-- Report problems via [takedown-and-reporting.md](./takedown-and-reporting.md)  
+- We may moderate, refuse, or remove content under the [moderation policy](./moderation.md)  
+- Report problems via the [takedown and reporting process](./report-content.md)  
 
 Early betas may **pre-moderate** or disable public comments.
 

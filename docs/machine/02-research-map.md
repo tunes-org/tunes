@@ -35,7 +35,7 @@ Agents on R2, R4, calibration architecture, pilot design, or claim language **mu
 
 ## Downstream consumers
 
-- Wave 2 architecture + ADR-001…012
+- Current architecture + ADR-001…013
 - Wave 3 roadmap, backlog, pilot, risks, public docs outline
 - Per-repo product docs in `tunes-ios` and `tunes-web`
 
@@ -47,4 +47,4 @@ Execute R1–R12 as disjoint files; resolve conflicts via ADRs in `tunes`, not b
 
 **Depends on experiment/legal/user-test?** Map itself no; many cells yes.
 
-**Links:** [01-assumptions-and-open-questions.md](./01-assumptions-and-open-questions.md); [00-index.md](./00-index-full.md).
+**Links:** [01-assumptions-and-open-questions.md](./01-assumptions-and-open-questions.md); [00-index-full.md](./00-index-full.md).

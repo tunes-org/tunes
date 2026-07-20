@@ -38,7 +38,7 @@ If you continue, we may include minimised derived data in versioned open release
 ## Non-affiliation / limits
 
 ```
-TUNES is not TfL. Crowd data is survey-grade — not a health or regulatory assessment.
+TUNES is not TfL. Crowd data is survey-grade at best — not a health or regulatory assessment.
 ```
 
 ## Primary actions

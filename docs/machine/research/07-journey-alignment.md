@@ -16,7 +16,7 @@ Alignment is therefore a **scientific boundary problem** and a **product UX prob
 - Canonical public unit = **station-to-station section with duration** ([scope-statement.md](../governance/scope-statement.md); provisional decision D-SEC).
 - Privacy default = local record → infer → **review/correct** → consent → derived upload ([01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md)).
 - Underground GPS is **not** trustworthy as a primary clock; topology snap and motion/acoustic cues matter more ([acoustic-survey-methodology.md](../acoustic-survey-methodology.md) §3.2).
-- Schema stays **generic railway** with London as instances (open Q #1–2; R6).
+- Schema stays **generic railway** with London as instances (ADR-001/002; R6).
 
 ## What “aligned” means
 
@@ -203,7 +203,9 @@ Suggested flags (names illustrative; final enum in schema ADR):
 | Recording, IMU/audio capture, inference, subtitle editor, confirm UX | `tunes-ios` |
 | Reject impossible journeys, aggregate only confirmed sections, map honesty | `tunes-web` |
 
-## Decisions recommended for Wave 2 ADRs
+## Current disposition
+
+The following research recommendations remain the alignment contract; changing their scientific meaning requires an ADR:
 
 1. **User route prior required** for contributions eligible for public section comparison.
 2. **Human confirm default** for section maps; auto-accept only under explicit campaign protocol.
@@ -227,4 +229,4 @@ Treat journey alignment as a **constrained path labelling** problem: user-select
 
 **Depends on experiment/legal/user-test?** **Yes** — real-journey boundary experiments; user tests of correction UX; privacy review if announcement audio features are ever proposed; licence check for any timetable data source.
 
-**Links to related docs:** [06-railway-journey-model.md](./06-railway-journey-model.md) (when present); [05-privacy-ethics.md](./05-privacy-ethics.md); [08-passenger-metadata.md](./08-passenger-metadata.md); [02-acoustic-methodology.md](./02-acoustic-methodology.md); [acoustic-survey-methodology.md](../acoustic-survey-methodology.md); [../governance/scope-statement.md](../governance/scope-statement.md); [../01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md) (open Q #9 adjacent); `tunes-ios` [product-scope.md](../../../../tunes-ios/docs/product-scope.md); `tunes-ios` [privacy-client-flow.md](../../../../tunes-ios/docs/privacy-client-flow.md).
+**Links to related docs:** [06-railway-journey-model.md](./06-railway-journey-model.md); [05-privacy-ethics.md](./05-privacy-ethics.md); [08-passenger-metadata.md](./08-passenger-metadata.md); [02-acoustic-methodology.md](./02-acoustic-methodology.md); [acoustic-survey-methodology.md](../acoustic-survey-methodology.md); [../governance/scope-statement.md](../governance/scope-statement.md); [ADR-009](../decisions/ADR-009-manual-metadata.md); [H14 recorder](../../H14-recorder.md); `tunes-ios` [product-scope.md](../../../../tunes-ios/docs/product-scope.md); `tunes-ios` [privacy-client-flow.md](../../../../tunes-ios/docs/privacy-client-flow.md).

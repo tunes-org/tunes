@@ -163,7 +163,7 @@ Do not assume wearables are superior measurement devices. Investigate before pro
 
 Until experiments show otherwise: do not display Watch/AirPods readings as equivalent to `tunes-ios` section metrics.
 
-### 5.2 Voice Memos / imports (open question #8)
+### 5.2 Voice Memos / imports (ADR-008)
 
 **Lean recommendation:** if accepted at all, **Tier D** (working label) — reduced control over processing, gain, and interruptions.
 
@@ -224,7 +224,7 @@ Run and document in `tunes` (methods + results versions); implement harnesses in
 
 ## 8. Implications for quieter-journey UX
 
-Until Tier B+ profiles and uncertainty UX exist:
+Until Tier B profiles and uncertainty UX exist:
 
 - Prefer **relative** language (“often higher in our samples”) over absolute regulatory-sounding dB authority.  
 - Always show tier / flags / sample size on `tunes-web`.  
@@ -259,7 +259,7 @@ Ship an **iPhone-native collector** that prioritises unprocessed (or best-availa
 - [../governance/project-charter.md](../governance/project-charter.md)
 - [../02-research-map.md](../02-research-map.md)
 - [../01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md)
-- [../00-index.md](../00-index-full.md) — glossary (derived features, quality tiers, survey grade)
+- [H10 glossary](../../H10-glossary.md) — derived features, quality tiers, survey-grade limits
 - [../acoustic-survey-methodology.md](../acoustic-survey-methodology.md) — smartphone adjunct framing; participatory protocol
 - [01-citizen-science.md](./01-citizen-science.md)
 - [02-acoustic-methodology.md](./02-acoustic-methodology.md)

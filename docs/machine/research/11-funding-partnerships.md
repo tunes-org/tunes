@@ -69,7 +69,7 @@ Anticipate friction; design partnership asks accordingly.
 | **Reputation / media** | “Noise map” headlines may be read as official failure | Honest UX; refuse false precision; non-affiliation in every public surface |
 | **Method quality** | Consumer phones ≠ Class 1 | Quality tiers; uncertainty; charter limits; cite standards applicability in R2 |
 | **Liability / complaints** | Crowdsourced data used in disputes | Claim-language ADR; no unsupported health risk scores |
-| **Data protection** | Voice / location / journey patterns | Derived-default; local review; R5; controller clarity |
+| **Data protection** | Voice / location / journey patterns | Derived-only default; local review; R5; controller clarity |
 | **Brand capture** | Public assumes TfL runs the project | No TfL logo use without explicit written permission; never imply endorsement |
 | **Operational security / misuse** | Detailed network artefacts | Stick to passenger-relevant section metrics; don’t republish non-open internal reports |
 | **Resource drain** | Informal asks for free validation labour | Clear, time-boxed technical exchanges; prefer self-serve open docs |
@@ -96,7 +96,7 @@ Sequencing recommendation:
 4. **Publication** of methods + versioned data under TUNES licences  
 5. Only then larger consortium grants that name TUNES as open infrastructure  
 
-Avoid exclusive IP or embargos that prevent `tunes` from releasing Layer B packages.
+Avoid exclusive IP or embargos that prevent `tunes` from releasing L2 aggregate packages.
 
 ---
 
@@ -128,7 +128,7 @@ Open question in [01](../01-assumptions-and-open-questions.md): whether ethics r
 
 **Decision:** Treat **ethics + DPIA timing as a launch gate for public recruitment**, not for writing methodology docs. Prefer university or qualified privacy counsel over informal “we’ll be fine.”
 
-If no academic partner yet, still commission privacy/legal review before wide collection (controller identity is already an open question).
+If no academic partner yet, still commission privacy/legal review before wide collection; controller identity follows ADR-013.
 
 ---
 
@@ -157,7 +157,7 @@ If no academic partner yet, still commission privacy/legal review before wide co
 4. Privacy defaults (derived-first) are non-negotiable without a public ADR  
 5. Claim-language limits remain in force  
 
-Provisional licence direction (MIT code + CC BY docs/data) supports independence; final text needs **legal** (open Q #12). Prefer avoiding non-commercial-only data licences if they later conflict with mixed academic–civic reuse — confirm with counsel.
+Provisional licence direction (MIT code + CC BY docs/data) supports independence; final text still needs **legal** review under ADR-012. Prefer avoiding non-commercial-only data licences if they later conflict with mixed academic–civic reuse — confirm with counsel.
 
 ---
 
@@ -227,5 +227,5 @@ Treat operators and the GLA as **informed audiences and optional later collabora
 - [../02-research-map.md](../02-research-map.md)
 - [../acoustic-survey-methodology.md](../acoustic-survey-methodology.md)
 - [10-open-data-reproducibility.md](./10-open-data-reproducibility.md)
-- [05-privacy-ethics.md](./05-privacy-ethics.md) (when written)
-- [01-citizen-science.md](./01-citizen-science.md) (when written)
+- [05-privacy-ethics.md](./05-privacy-ethics.md)
+- [01-citizen-science.md](./01-citizen-science.md)

@@ -162,7 +162,9 @@ Missing optional metadata must **not** look like acoustic failure. Map and expor
 - Silent defaults like “hand-held” when unknown  
 - Blending metadata completeness into a single “trust score” with loudness  
 
-## Decisions recommended for Wave 2 ADRs
+## Current disposition (ADR-009)
+
+ADR-009 accepts the minimise-manual-metadata direction. These details remain the research rationale:
 
 1. **Casual pre-select = journey path only** (plus branch when needed).  
 2. **Post-add recommended chips:** phone placement + front/middle/rear.  
@@ -186,4 +188,4 @@ Adopt a **burden budget**: pre-recording asks only for the route prior needed fo
 
 **Depends on experiment/legal/user-test?** **Yes** — user tests for form abandonment vs metadata completeness; privacy review of any free-text; campaign ethics if required fields expand; no legal blocker for coarse carriage chips themselves.
 
-**Links to related docs:** [07-journey-alignment.md](./07-journey-alignment.md); [09-subjective-experience.md](./09-subjective-experience.md); [04-calibration-uncertainty.md](./04-calibration-uncertainty.md); [03-consumer-device-limits.md](./03-consumer-device-limits.md); [05-privacy-ethics.md](./05-privacy-ethics.md); [acoustic-survey-methodology.md](../acoustic-survey-methodology.md); [../01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md) (open Q #9); [../governance/project-charter.md](../governance/project-charter.md); `tunes-ios` [product-scope.md](../../../../tunes-ios/docs/product-scope.md).
+**Links to related docs:** [07-journey-alignment.md](./07-journey-alignment.md); [09-subjective-experience.md](./09-subjective-experience.md); [04-calibration-uncertainty.md](./04-calibration-uncertainty.md); [03-consumer-device-limits.md](./03-consumer-device-limits.md); [05-privacy-ethics.md](./05-privacy-ethics.md); [acoustic-survey-methodology.md](../acoustic-survey-methodology.md); [ADR-009](../decisions/ADR-009-manual-metadata.md); [H14 recorder](../../H14-recorder.md); [../governance/project-charter.md](../governance/project-charter.md); `tunes-ios` [product-scope.md](../../../../tunes-ios/docs/product-scope.md).

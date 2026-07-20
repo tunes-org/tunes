@@ -185,7 +185,7 @@ Mirror what makes R3291 auditable:
 | Field | Example | Why (from the pro method) |
 |---|---|---|
 | line + direction | `central` / `eastbound` | comparable spatial unit (§1.5) |
-| from / to station | `Stratford` → `Leyton` | station-to-station segment |
+| from / to station | `Stratford` → `Leyton` | station-to-station section |
 | metric | `LAeq` | never mix metrics (§1.6) |
 | weighting | `A` / `C` | required with every level (§2.3) |
 | value + unit | `98.2 dBA` | — |

@@ -61,9 +61,9 @@ Public terms and this policy describe our approach. We keep internal records of 
 
 ## 6. Related
 
-- [Terms and contributor rules](./terms-and-contributor-rules.md)  
-- [Takedown and reporting](./takedown-and-reporting.md)  
-- [Code of conduct outline](../code-of-conduct-outline.md)  
+- [Terms and contributor rules](./terms.md)  
+- [Takedown and reporting](./report-content.md)  
+- [Code of conduct outline](../../../code-of-conduct-outline.md)  
 
 ---
 

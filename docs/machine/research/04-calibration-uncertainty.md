@@ -4,6 +4,8 @@
 **Repos:** `tunes` (methodology + schema contracts); feeds quality-tier ADR and honesty UX in `tunes-ios` / `tunes-web`  
 **Must-read inputs:** [acoustic-survey-methodology.md](../acoustic-survey-methodology.md), [project-charter.md](../governance/project-charter.md), [01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md)
 
+**Current disposition:** the canonical calibration states and tier mapping are maintained in [architecture/calibration-and-quality-tiers.md](../architecture/calibration-and-quality-tiers.md), [ADR-006](../decisions/ADR-006-quality-tiers.md), and the versioned JSON Schema. This research note explains their rationale.
+
 ---
 
 ## 1. Decision question
@@ -44,24 +46,24 @@ Store an explicit `calibration_state` (or equivalent) on every measurement sessi
 
 | Level | Label | Meaning | Typical path into TUNES |
 | --- | --- | --- | --- |
-| 0 | **Unknown consumer** | Supported or unsupported phone; no model profile; no individual correction | Default first session on a new device |
-| 1 | **Model profile** | Device model (+ OS family) has a published TUNES correction / response profile from controlled experiments | After programme publishes a profile for that model |
-| 2 | **Field-calibrated device** | This physical device has an individual correction from a documented field protocol (not quiet-room) | Contributor calibration event or research campaign |
-| 3 | **Beside reference SLM** | Concurrent measurement beside a Class 1 (or otherwise documented) reference meter on the same journey/section | Pilot / validation runs |
-| 4 | **External calibrated microphone** | Phone used with a characterised external mic + stated calibrator / sensitivity chain | Optional expansion after validation |
-| 5 | **Professional survey equipment** | Class-rated SLM under a documented survey protocol | Reference / Tier A anchor data |
+| 0 | **Unknown consumer device** | No supported-model evidence, project profile, or individual correction | Default first session on an unknown device |
+| 1 | **Known model, no project profile** | Device model is identified, but TUNES has not published a correction/response profile | Supported capture with unprofiled response |
+| 2 | **Model profile** | Device model (+ OS family) has a published TUNES profile from controlled experiments | After the programme publishes that profile |
+| 3 | **Individual field offset** | This physical device has an individual correction from a documented reference protocol | Contributor calibration event or research campaign |
+| 4 | **External calibrated microphone** | Phone used with a characterised external mic + stated calibrator/sensitivity chain | Optional expansion after validation |
+| 5 | **Professional SLM protocol** | Class-rated SLM under a documented survey protocol | Reference / Tier A anchor data |
 
-### Mapping to working tiers A–E (inputs, not final ADR)
+### Mapping to accepted working tiers A–E
 
 | Tier (working) | Calibration hierarchy (typical floor) | Notes |
 | --- | --- | --- |
-| **A** | Level 4–5, or Level 3 under a written protocol | Survey-grade honesty still applies for *in-service* passenger conditions |
-| **B** | Level 1 with complete metadata, no major quality flags | Model-profiled consumer path |
-| **C** | Level 0 on project app with complete metadata | Usable for relative / dense coverage; weak for absolute claims |
+| **A** | Level 4–5, or Level 3 when the documented protocol meets Tier A requirements | Survey-grade honesty still applies for *in-service* passenger conditions |
+| **B** | Level 2, or eligible Level 3, with complete metadata and no major quality flags | Profiled or individually characterised consumer path |
+| **C** | Level 0–1 on the project app with complete metadata | Usable for relative / dense coverage; weak for absolute claims |
 | **D** | Imported / incomplete control (e.g. Voice Memos candidates) | Lower confidence; may be excluded from map defaults |
 | **E** | Manual / legacy / insufficient technical metadata | Archive or research-only |
 
-Final tier cut-offs belong in a Wave 2 ADR. This doc only requires that **tier ≠ silent promotion**: a Level 0 reading must never display as if it were Level 5.
+ADR-006 accepts these A–E working labels while allowing bounds to be tuned after pilot evidence. **Tier ≠ silent promotion**: a Level 0 reading must never display as if it were Level 5.
 
 ---
 
@@ -163,7 +165,7 @@ Do **not** publish numeric “TUNES accuracy ±X dB” marketing until these run
 
 ## Recommendation
 
-1. Adopt the **six-level calibration hierarchy** (unknown → model profile → field-calibrated → beside reference SLM → external mic → professional) as the schema vocabulary for every session.  
+1. Adopt the **six-level calibration hierarchy** (unknown → known model → model profile → individual field offset → external mic → professional protocol) as the schema vocabulary for every session.  
 2. Treat **quiet-room / obstruction screens as non-calibration**.  
 3. Persist **separate uncertainty dimensions**; refuse a single unexplained accuracy score.  
 4. Use hierarchy + flags as **inputs** to tiers A–E; keep in-service crowd data labelled **survey-grade at best**.  
@@ -181,4 +183,5 @@ Do **not** publish numeric “TUNES accuracy ±X dB” marketing until these run
 - [01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md) (Q6, Q8; assumptions 4, 6)  
 - [governance/project-charter.md](../governance/project-charter.md)  
 - [governance/scope-statement.md](../governance/scope-statement.md)  
-- Downstream: R2 acoustic methodology; R3 consumer-device limits; R7 journey alignment; Wave 2 calibration / tiers ADRs; `03-architecture` calibration model  
+- [H12 measurement philosophy](../../H12-measurement-philosophy.md)  
+- Current disposition: [calibration and quality tiers architecture](../architecture/calibration-and-quality-tiers.md) and [ADR-006](../decisions/ADR-006-quality-tiers.md)  

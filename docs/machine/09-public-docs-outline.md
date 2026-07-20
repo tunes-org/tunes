@@ -36,4 +36,4 @@ Write Limitations and Privacy before marketing launch pages; keep claim language
 
 **Depends on experiment/legal/user-test?** Legal for privacy notice.
 
-**Links:** [00-index.md](./00-index-full.md); `tunes-web/README.md`; [governance/licences.md](./governance/licences.md).
+**Links:** [00-index-full.md](./00-index-full.md); `tunes-web/README.md`; [governance/licences.md](./governance/licences.md).
