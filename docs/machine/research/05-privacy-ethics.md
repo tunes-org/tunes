@@ -193,7 +193,7 @@ Free text can contain names, medical detail, or incident narratives. **Recommend
 
 ### Informed consent (minimum content)
 
-- The controller and current contact stated in the legal pack  
+- The controller and current contact stated in the legal pack
 - What is uploaded for the selected privacy tier  
 - That TUNES is **independent** and not TfL-endorsed  
 - Survey-grade limits of crowd acoustics (no false health certainty)  
@@ -256,5 +256,5 @@ Implement and test in `tunes-ios` + `tunes-web` per the privacy test list in [re
 - [02-research-map.md](../02-research-map.md) (R5)  
 - [governance/licences.md](../governance/licences.md)  
 - [research-plan.md](../research-plan.md) (privacy tests; Phase 4)  
-- [H14 recorder](../../H14-recorder.md)  
-- Current disposition: [privacy-boundary architecture](../architecture/data-flow-and-privacy-boundaries.md); [ADR-004](../decisions/ADR-004-raw-audio-policy.md); [ADR-005](../decisions/ADR-005-derived-only-default.md); [ADR-011](../decisions/ADR-011-claim-language.md)  
+- [H14 recorder](../../H14-recorder.md)
+- Current disposition: [privacy-boundary architecture](../architecture/data-flow-and-privacy-boundaries.md); [ADR-004](../decisions/ADR-004-raw-audio-policy.md); [ADR-005](../decisions/ADR-005-derived-only-default.md); [ADR-011](../decisions/ADR-011-claim-language.md)

@@ -59,8 +59,8 @@ If enabled:
 - Be respectful; no harassment, hate, or illegal content  
 - No doxxing, threats, or impersonation of TfL / operators / officials  
 - No unsupported medical or “acoustic risk” claims presented as fact  
-- We may moderate, refuse, or remove content under the [moderation policy](./moderation.md)  
-- Report problems via the [takedown and reporting process](./report-content.md)  
+- We may moderate, refuse, or remove content under the [moderation policy](./moderation.md)
+- Report problems via the [takedown and reporting process](./report-content.md)
 
 Early betas may **pre-moderate** or disable public comments.
 

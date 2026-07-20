@@ -4,12 +4,12 @@
 
 1. Record locally  
 2. Process locally where practical  
-3. Infer sections  
-4. Review and correct alignment  
-5. Trim or delete  
-6. Show **exactly** what will upload  
-7. Give explicit consent  
-8. Upload only the selected information; the default is **derived-only**  
+3. Infer sections
+4. Review and correct alignment
+5. Trim or delete
+6. Show **exactly** what will upload
+7. Give explicit consent
+8. Upload only the selected information; the default is **derived-only**
 
 After upload, the contributor can delete local raw audio and use the documented withdrawal path.
 

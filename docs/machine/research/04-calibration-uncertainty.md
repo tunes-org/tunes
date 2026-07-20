@@ -165,7 +165,7 @@ Do **not** publish numeric “TUNES accuracy ±X dB” marketing until these run
 
 ## Recommendation
 
-1. Adopt the **six-level calibration hierarchy** (unknown → known model → model profile → individual field offset → external mic → professional protocol) as the schema vocabulary for every session.  
+1. Adopt the **six-level calibration hierarchy** (unknown → known model → model profile → individual field offset → external mic → professional protocol) as the schema vocabulary for every session.
 2. Treat **quiet-room / obstruction screens as non-calibration**.  
 3. Persist **separate uncertainty dimensions**; refuse a single unexplained accuracy score.  
 4. Use hierarchy + flags as **inputs** to tiers A–E; keep in-service crowd data labelled **survey-grade at best**.  
@@ -183,5 +183,5 @@ Do **not** publish numeric “TUNES accuracy ±X dB” marketing until these run
 - [01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md) (Q6, Q8; assumptions 4, 6)  
 - [governance/project-charter.md](../governance/project-charter.md)  
 - [governance/scope-statement.md](../governance/scope-statement.md)  
-- [H12 measurement philosophy](../../H12-measurement-philosophy.md)  
-- Current disposition: [calibration and quality tiers architecture](../architecture/calibration-and-quality-tiers.md) and [ADR-006](../decisions/ADR-006-quality-tiers.md)  
+- [H12 measurement philosophy](../../H12-measurement-philosophy.md)
+- Current disposition: [calibration and quality tiers architecture](../architecture/calibration-and-quality-tiers.md) and [ADR-006](../decisions/ADR-006-quality-tiers.md)

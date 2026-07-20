@@ -188,7 +188,7 @@ Mirror auditability from professional tables without Class 1 pretence:
 - Device: model, OS, app version, pipeline version  
 - Calibration: offset if any (stored separately), tier, quality flags  
 - Context: position/height proxy, crowding, exclusions  
-- Grade label: survey-grade at best for crowd collection; a documented reference protocol states its actual grade separately  
+- Grade label: survey-grade at best for crowd collection; a documented reference protocol states its actual grade separately
 - Alignment: snapped vs GNSS accuracy note  
 
 Prefer this **derived** package for upload; raw PCM stays on device by default (R5).

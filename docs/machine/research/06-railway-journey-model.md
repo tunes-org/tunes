@@ -224,7 +224,7 @@ Crowd measurements remain **survey-grade at best** even when section IDs are per
 - [acoustic-survey-methodology.md](../acoustic-survey-methodology.md) (§1.5 station-to-station practice)  
 - [01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md) (Q1, Q2; assumptions 1, 3)  
 - [02-research-map.md](../02-research-map.md) (R6)  
-- [H10 glossary](../../H10-glossary.md) (section, London-first portable schema)  
-- [H16 schema](../../H16-schema.md)  
-- [H17 portability](../../H17-portability.md)  
-- Current disposition: [journey-segmentation architecture](../architecture/journey-segmentation-model.md) and [ADR-002](../decisions/ADR-002-generic-railway-schema.md); related detail in R7, R8, and R10  
+- [H10 glossary](../../H10-glossary.md) (section, London-first portable schema)
+- [H16 schema](../../H16-schema.md)
+- [H17 portability](../../H17-portability.md)
+- Current disposition: [journey-segmentation architecture](../architecture/journey-segmentation-model.md) and [ADR-002](../decisions/ADR-002-generic-railway-schema.md); related detail in R7, R8, and R10

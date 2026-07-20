@@ -184,8 +184,8 @@ Independence goal: prefer licences that allow civic and academic reuse without a
 
 Offer at least:
 
-1. **Research package** — L0 observations + L1 reprocessing + L2 aggregates + separate L3 perception records, with full provenance columns  
-2. **Map package** — L2 section summaries + quality/uncertainty fields only  
+1. **Research package** — L0 observations + L1 reprocessing + L2 aggregates + separate L3 perception records, with full provenance columns
+2. **Map package** — L2 section summaries + quality/uncertainty fields only
 3. **Schema + methodology bundle** — docs and JSON Schema / OpenAPI-style contracts from `tunes`
 
 Formats: prefer open tabular + JSON for machine use; document encodings. Do not require proprietary GIS to read core metrics.

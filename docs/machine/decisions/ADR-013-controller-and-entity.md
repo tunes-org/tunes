@@ -10,7 +10,7 @@ Open question: data controller identity and GDPR roles across repos/hosting. TUN
 
 ## Decision
 
-1. **Controller (pre-incorporation):** Hao-Tsun Kuo (`manglekuo@gmail.com`) is the public controller contact until the CLG is incorporated. If purposes and means are jointly determined, document a joint-controller arrangement.  
+1. **Controller (pre-incorporation):** Hao-Tsun Kuo (`manglekuo@gmail.com`) is the public controller contact until the CLG is incorporated. If purposes and means are jointly determined, document a joint-controller arrangement.
 2. **Entity sequencing:**  
    - Start **informal** (named controllers) for private prototype / early dogfood.  
    - Incorporate as a **private company limited by guarantee (CLG)** when any incorporation trigger fires, and **no later than public London launch**.  
@@ -22,7 +22,7 @@ Open question: data controller identity and GDPR roles across repos/hosting. TUN
 
 ## Consequences
 
-- Privacy notice and governance statement carry the named pre-incorporation controller and must be updated when the CLG becomes controller.  
+- Privacy notice and governance statement carry the named pre-incorporation controller and must be updated when the CLG becomes controller.
 - Agents follow `tunes-legal-privacy` skill; claim language remains ADR-011.  
 - Final controller legal name and counsel-signed policies still required before public launch.  
 - ICO fee self-assessment still required (exemption does not remove UK GDPR duties).

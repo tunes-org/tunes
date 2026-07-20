@@ -18,7 +18,7 @@
 
 - Section unit everywhere  
 - Privacy = derived-only after review + consent  
-- Science in `tunes`; capture in `tunes-ios`; map/pipeline in `tunes-web`  
+- Science in `tunes`; capture in `tunes-ios`; map/pipeline in `tunes-web`
 - No invented statistics  
 
 ## Detail
