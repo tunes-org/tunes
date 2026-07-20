@@ -17,11 +17,22 @@ tunes      --schema / methodology / licences-->  ios + web
 
 ## Paths
 
-| Repo | Local path |
+Assume all three repos are cloned as **siblings** in one workspace folder:
+
+```text
+workspace/
+  tunes/          ← this repo
+  tunes-ios/
+  tunes-web/
+```
+
+| Repo | Relative path (from this repo root) |
 | --- | --- |
-| tunes | `/Users/manglekuo/dev/nextjs/tunes` |
-| tunes-ios | `/Users/manglekuo/dev/nextjs/tunes-ios` |
-| tunes-web | `/Users/manglekuo/dev/nextjs/tunes-web` (from nextjs-starter) |
+| tunes | `.` |
+| tunes-ios | [`../tunes-ios`](../tunes-ios) |
+| tunes-web | [`../tunes-web`](../tunes-web) |
+
+Remotes: [github.com/tunes-org/tunes](https://github.com/tunes-org/tunes) · [tunes-ios](https://github.com/tunes-org/tunes-ios) · [tunes-web](https://github.com/tunes-org/tunes-web)
 
 ## Detail
 

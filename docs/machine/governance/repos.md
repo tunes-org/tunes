@@ -32,13 +32,24 @@ tunes      --schema / methodology / licences-->  tunes-ios & tunes-web
 - Map / API / jobs → **`tunes-web`**
 - Cross-cutting privacy → ADR in `tunes`, then implement client (`ios`) and server (`web`)
 
-## Local paths (this machine)
+## Sibling checkout layout
 
-- `/Users/manglekuo/dev/nextjs/tunes`
-- `/Users/manglekuo/dev/nextjs/tunes-ios`
-- `/Users/manglekuo/dev/nextjs/tunes-web`
+Clone all three repos as siblings (same parent folder):
 
-Remotes and Vercel projects are **not** created in the docs wave unless explicitly requested.
+```text
+workspace/
+  tunes/
+  tunes-ios/
+  tunes-web/
+```
+
+| Repo | Relative path (from `tunes` root) |
+| --- | --- |
+| `tunes` | `.` |
+| `tunes-ios` | `../tunes-ios` |
+| `tunes-web` | `../tunes-web` |
+
+GitHub: [tunes-org/tunes](https://github.com/tunes-org/tunes) · [tunes-ios](https://github.com/tunes-org/tunes-ios) · [tunes-web](https://github.com/tunes-org/tunes-web)
 
 ## Recommendation
 

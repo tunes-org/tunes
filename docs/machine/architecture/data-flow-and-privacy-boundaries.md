@@ -43,4 +43,4 @@ Ship v1 with derived-only uploads; treat any raw/excerpt path as a separate ADR-
 
 **Depends on experiment/legal/user-test?** Legal + privacy threat model before public beta.
 
-**Links:** [../research/05-privacy-ethics.md](../research/05-privacy-ethics.md); `tunes-ios/docs/privacy-client-flow.md`; [../decisions/ADR-005-derived-only-default.md](../decisions/ADR-005-derived-only-default.md).
+**Links:** [../research/05-privacy-ethics.md](../research/05-privacy-ethics.md); `[privacy-client-flow.md](../../../../tunes-ios/docs/privacy-client-flow.md)`; [../decisions/ADR-005-derived-only-default.md](../decisions/ADR-005-derived-only-default.md).

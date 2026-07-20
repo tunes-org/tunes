@@ -9,11 +9,11 @@ This repo (`tunes`) owns the **scientific programme**: charter, governance, meth
 
 ## Three repositories
 
-| Repo | Path | Owns |
+| Repo | Path (from `tunes` root) | Owns |
 | --- | --- | --- |
-| **tunes** | `/Users/manglekuo/dev/nextjs/tunes` | Charter, research, methodology, open data, schema docs |
-| **tunes-ios** | `/Users/manglekuo/dev/nextjs/tunes-ios` | iOS recorder product docs (and later code) |
-| **tunes-web** | `/Users/manglekuo/dev/nextjs/tunes-web` | Landing, map, pipeline docs (and later code) |
+| **tunes** | `.` | Charter, research, methodology, open data, schema docs |
+| **tunes-ios** | [`../tunes-ios`](../../../tunes-ios) | iOS recorder product docs (and later code) |
+| **tunes-web** | [`../tunes-web`](../../../tunes-web) | Landing, map, pipeline docs (and later code) |
 
 See [governance/repos.md](./governance/repos.md). Multi-repo is **accepted** ([ADR-003](./decisions/ADR-003-multi-repo.md)).
 
