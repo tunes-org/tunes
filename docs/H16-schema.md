@@ -1,4 +1,4 @@
-# H14 — Data-model reasoning
+# H16 — Schema
 
 The data model keeps railway topology, passenger contributions, derived acoustics, calibration evidence, annotations, and confidence separable. This supports reprocessing and portability without erasing provenance.
 
@@ -13,7 +13,7 @@ The terms below explain responsibilities. They are not all frozen JSON entities.
 | Entity | Why it exists |
 | --- | --- |
 | **Journey** | Holds one passenger trip context: route prior, direction, timing and the ordered sections expected or observed. A recorder session may represent a journey attempt, but session and journey should not be assumed identical in every future workflow. |
-| **Segment** | Represents a bounded interval in the recording timeline. It distinguishes in-motion sections from dwell, hold, walking, gap and trimmed intervals. Public comparisons use the more precise canonical term **section** for a directed station-to-station segment. |
+| **Segment** | Represents a bounded interval in the recording timeline. It distinguishes in-motion sections from dwell, hold, walking, gap and trimmed intervals. Public comparisons use the canonical term **section** for the directed interval between consecutive stations. |
 | **Observation** | Preserves what one contribution reported under one set of conditions. It is the provenance-bearing evidence that must not be overwritten by later processing. |
 | **Measurement** | Stores objective derived quantities for a section and duration, with weighting and units kept explicit. It prevents context or interpretation from being mistaken for measured acoustics. |
 | **Calibration** | States the evidence behind device response or correction. Calibration state and correction provenance remain separate from the measured value and quality tier. |
@@ -70,14 +70,14 @@ The `v0.1.0` schemas currently encode:
 - duration, separate acoustic metrics, device/app provenance
 - calibration state, quality tier and quality flags
 - nullable uncertainty dimensions
-- alignment confirmation and an optional subjective block
+- alignment confirmation and an optional `subjective` object for perception answers
 - consent class, preview acknowledgement and withdrawal handle
 
 The conceptual model is broader than this prototype. In particular, `Journey`, general timeline `Segment`, standalone `Observation`, `Annotation`, and release schemas are not yet independent JSON contracts.
 
 > Future work
 >
-> Freeze terminology and identity rules through an ADR; reconcile the prototype subjective block with the versioned perception-instrument research; define migration and compatibility policy; add release manifests and data dictionaries. Exact field names and SemVer policy remain open.
+> D-SEC and ADR-002 establish the section unit and generic core. Remaining work is to reconcile the prototype perception fields with the versioned perception-instrument research, define migration and compatibility policy, and add release manifests and data dictionaries. Exact future field names and SemVer policy remain open.
 
 ## Extensibility rules
 
@@ -91,4 +91,4 @@ The conceptual model is broader than this prototype. In particular, `Journey`, g
 
 ## Related Documents
 
-[Glossary](./H10-glossary.md) · [Recorder](./H12-recorder.md) · [Portability](./H15-portability.md) · [Schema README](../schemas/README.md) · [Journey model](./machine/research/06-railway-journey-model.md) · [Public data model](./machine/architecture/public-data-model.md) · [Generic railway schema ADR](./machine/decisions/ADR-002-generic-railway-schema.md) · [Open data and reproducibility](./machine/research/10-open-data-reproducibility.md)
+[Glossary](./H10-glossary.md) · [Measurement philosophy](./H12-measurement-philosophy.md) · [Recorder](./H14-recorder.md) · [Portability](./H17-portability.md) · [Schema README](../schemas/README.md) · [Journey model](./machine/research/06-railway-journey-model.md) · [Journey segmentation](./machine/architecture/journey-segmentation-model.md) · [Data-flow boundaries](./machine/architecture/data-flow-and-privacy-boundaries.md) · [Public data model](./machine/architecture/public-data-model.md) · [Generic railway schema ADR](./machine/decisions/ADR-002-generic-railway-schema.md) · [Open data and reproducibility](./machine/research/10-open-data-reproducibility.md)

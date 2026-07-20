@@ -1,4 +1,4 @@
-# H17 — Why TUNES exists
+# H19 — Why TUNES exists
 
 Railway noise is measured professionally, but the passenger’s repeated everyday experience is not described by public engineering surveys alone. TUNES exists to make that missing evidence observable, inspectable, and reusable without pretending it is something else.
 
@@ -83,4 +83,4 @@ The aim is modest but consequential: make passenger railway-noise evidence more 
 
 ## Related Documents
 
-[Start here](./H00-start-here.md) · [What is TUNES](./H01-what-is-tunes.md) · [Measurement philosophy](./H10-measurement-philosophy.md) · [Public map](./H11-public-map.md) · [Project charter](./machine/governance/project-charter.md) · [Citizen science](./machine/research/01-citizen-science.md) · [Open data and reproducibility](./machine/research/10-open-data-reproducibility.md) · [Claim language](./machine/decisions/ADR-011-claim-language.md)
+[README baseline](../README.md) · [Start here](./H00-start-here.md) · [What is TUNES](./H01-what-is-tunes.md) · [Privacy](./H05-privacy.md) · [Measurement philosophy](./H12-measurement-philosophy.md) · [Public map](./H13-public-map.md) · [Project charter](./machine/governance/project-charter.md) · [Scope](./machine/governance/scope-statement.md) · [Citizen science](./machine/research/01-citizen-science.md) · [Open data and reproducibility](./machine/research/10-open-data-reproducibility.md) · [Claim language](./machine/decisions/ADR-011-claim-language.md)

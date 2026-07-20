@@ -1,4 +1,4 @@
-# H15 — Portability
+# H17 — Portability
 
 TUNES is London-first, not London-hardcoded. The core model describes generic railway topology, journeys, sections, observations, measurements and provenance; each network supplies versioned configuration.
 
@@ -12,7 +12,7 @@ TUNES is London-first, not London-hardcoded. The core model describes generic ra
 | --- | --- |
 | Transport system, operator, line, branch, direction | Local names, identifiers, language and passenger-facing direction labels |
 | Station, optional platform, directed section | Topology, interchange edges, branches, stopping patterns and geometries |
-| Journey, segment/section, duration | Route-selection rules and alignment priors |
+| Journey, section, timeline segment and duration | Route-selection rules and alignment priors |
 | Rolling stock and carriage-position concepts | Local stock catalogue and passenger-friendly carriage labels |
 | Measurements, calibration, flags, confidence | Supported device profiles, campaign protocols and quality gates |
 | Versioned observation and release provenance | Data-source licences, network-profile version and release scope |
@@ -72,4 +72,4 @@ Portability also has scientific limits. Different stock, tunnels, weather exposu
 
 ## Related Documents
 
-[What is TUNES](./H01-what-is-tunes.md) · [Repos](./H02-repos.md) · [Data-model reasoning](./H14-schema.md) · [Assumptions](./H16-assumptions.md) · [Railway journey model](./machine/research/06-railway-journey-model.md) · [Generic schema ADR](./machine/decisions/ADR-002-generic-railway-schema.md) · [Initial network scope ADR](./machine/decisions/ADR-001-initial-network-scope.md) · [Network-profile schema](../schemas/v0.1.0/network-profile.schema.json)
+[What is TUNES](./H01-what-is-tunes.md) · [Repos](./H02-repos.md) · [Schema](./H16-schema.md) · [Assumptions](./H18-assumptions.md) · [Railway journey model](./machine/research/06-railway-journey-model.md) · [Generic schema ADR](./machine/decisions/ADR-002-generic-railway-schema.md) · [Initial network scope ADR](./machine/decisions/ADR-001-initial-network-scope.md) · [Network-profile schema](../schemas/v0.1.0/network-profile.schema.json)

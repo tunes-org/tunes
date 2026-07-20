@@ -26,4 +26,4 @@ Acoustic level · frequency · journey assignment · device calibration · metad
 
 ## Detail
 
-[calibration & tiers](./machine/architecture/calibration-and-quality-tiers.md) · [acoustic methodology](./machine/research/02-acoustic-methodology.md) · [R3291 notes](./machine/acoustic-survey-methodology.md)
+[calibration & tiers](./machine/architecture/calibration-and-quality-tiers.md) · [acoustic methodology](./machine/research/02-acoustic-methodology.md) · [R3291 notes](./machine/acoustic-survey-methodology.md) · [measurement philosophy](./H12-measurement-philosophy.md) · [public map](./H13-public-map.md)

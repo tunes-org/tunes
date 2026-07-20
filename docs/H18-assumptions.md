@@ -1,4 +1,4 @@
-# H16 — Assumptions
+# H18 — Assumptions
 
 This register makes the project’s scientific and product assumptions visible. An assumption is not a result: experiments, user tests, legal review, or ADRs may confirm, narrow, or replace it.
 
@@ -31,7 +31,7 @@ This register makes the project’s scientific and product assumptions visible. 
 | **Tunnel acoustics** | Enclosure, curves, track and vehicle interact; a phone observation cannot isolate a single cause automatically. | Preserve spectra, context and repeated section evidence; source attribution remains provisional. |
 | **Placement** | Sitting, standing, hand, pocket, bag, carriage end and bogie proximity affect observations. | Collect coarse optional metadata; demote or flag obstructed recordings; do not correct to an imagined standard position. |
 | **Operating state** | Acceleration, braking, dwell, doors, holds and disruptions change the interval. | Align and annotate intervals; exclude or flag non-representative holds and walking. |
-| **Measurement error** | Error is multi-dimensional rather than one universal ±dB value. | Separate absolute, relative, repeatability, device, placement, algorithmic and route-assignment confidence. |
+| **Measurement error** | Error is multi-dimensional rather than one universal ±dB value. | Persist acoustic level, frequency content, journey assignment, device calibration, user metadata and subjective-response confidence separately; placement and processing remain explicit drivers/flags. |
 | **Self-selection** | Contributors and optional perception reports are not a population census. | Show sample counts, distributions and collection scope; avoid population claims. |
 | **Time** | Conditions may vary by time and published processing may change. | Version observations, methods, network profiles and releases; report scope and recency. |
 
@@ -62,4 +62,4 @@ When evidence contradicts an assumption:
 
 ## Related Documents
 
-[Measurement philosophy](./H10-measurement-philosophy.md) · [Quality tiers](./H06-quality-tiers.md) · [Recorder](./H12-recorder.md) · [Portability](./H15-portability.md) · [Machine assumptions](./machine/01-assumptions-and-open-questions.md) · [Consumer device limits](./machine/research/03-consumer-device-limits.md) · [Calibration and uncertainty](./machine/research/04-calibration-uncertainty.md) · [Risk register](./machine/08-risk-register.md)
+[Decisions](./H03-decisions.md) · [Measurement philosophy](./H12-measurement-philosophy.md) · [Quality tiers](./H06-quality-tiers.md) · [Recorder](./H14-recorder.md) · [Portability](./H17-portability.md) · [Project charter](./machine/governance/project-charter.md) · [Machine assumptions](./machine/01-assumptions-and-open-questions.md) · [Consumer device limits](./machine/research/03-consumer-device-limits.md) · [Calibration and uncertainty](./machine/research/04-calibration-uncertainty.md) · [Risk register](./machine/08-risk-register.md)

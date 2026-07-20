@@ -1,4 +1,4 @@
-# H13 — Railway noise taxonomy
+# H15 — Railway noise taxonomy
 
 This taxonomy supplies shared labels for describing major sound sources heard by passengers. It does not assert that TUNES can automatically classify them.
 
@@ -47,4 +47,4 @@ All categories are currently **not established** as automatic classifiers. “Li
 
 ## Related Documents
 
-[Measurement philosophy](./H10-measurement-philosophy.md) · [Acoustic methodology](./machine/research/02-acoustic-methodology.md) · [Journey alignment](./machine/research/07-journey-alignment.md) · [Subjective experience](./machine/research/09-subjective-experience.md) · [Consumer device limits](./machine/research/03-consumer-device-limits.md) · [Claim language](./machine/decisions/ADR-011-claim-language.md)
+[Measurement philosophy](./H12-measurement-philosophy.md) · [Schema](./H16-schema.md) · [Acoustic methodology](./machine/research/02-acoustic-methodology.md) · [Journey alignment](./machine/research/07-journey-alignment.md) · [Subjective experience](./machine/research/09-subjective-experience.md) · [Consumer device limits](./machine/research/03-consumer-device-limits.md) · [Claim language](./machine/decisions/ADR-011-claim-language.md)

@@ -1,4 +1,4 @@
-# H11 — Public map
+# H13 — Public map
 
 The public map translates versioned, section-level evidence into a passenger-facing quieter-journey view. It must make coverage and uncertainty as visible as the acoustic result.
 
@@ -75,4 +75,4 @@ Public layers must also avoid contributor identity, stable cross-release persona
 
 ## Related Documents
 
-[How it works](./H04-how-it-works.md) · [Privacy](./H05-privacy.md) · [Quality tiers](./H06-quality-tiers.md) · [Legal and governance](./H11-legal-governance.md) · [Public data model](./machine/architecture/public-data-model.md) · [Open data and reproducibility](./machine/research/10-open-data-reproducibility.md) · [Subjective experience](./machine/research/09-subjective-experience.md) · [Claim language](./machine/decisions/ADR-011-claim-language.md)
+[How it works](./H04-how-it-works.md) · [Privacy](./H05-privacy.md) · [Quality tiers](./H06-quality-tiers.md) · [Legal and governance](./H11-legal-governance.md) · [Public data model](./machine/architecture/public-data-model.md) · [Calibration and quality tiers](./machine/architecture/calibration-and-quality-tiers.md) · [Open data and reproducibility](./machine/research/10-open-data-reproducibility.md) · [Subjective experience](./machine/research/09-subjective-experience.md) · [Claim language](./machine/decisions/ADR-011-claim-language.md)

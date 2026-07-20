@@ -4,12 +4,12 @@
 
 | Step | Where | What |
 | --- | --- | --- |
-| 1 | ios | Pick journey · record PCM + motion **locally** |
-| 2 | ios | Infer station boundaries · user corrects (timeline) |
-| 3 | ios | Preview exact upload · consent |
-| 4 | ios → web | Upload **derived** metrics (+ metadata), not raw by default |
-| 5 | web | Inspect · validate · quality flags · aggregate · edit |
-| 6 | web → tunes | Versioned open release + methodology pages |
+| 1 | `tunes-ios` | Pick journey · record PCM + motion **locally** |
+| 2 | `tunes-ios` | Infer station boundaries · user corrects (timeline) |
+| 3 | `tunes-ios` | Preview exact upload · consent |
+| 4 | `tunes-ios` → `tunes-web` | Upload **derived features** (+ metadata), not raw by default |
+| 5 | `tunes-web` | Inspect · validate · quality flags · aggregate · edit |
+| 6 | `tunes-web` → `tunes` | Versioned open release + methodology pages |
 
 ## Layers (keep separate)
 
@@ -26,4 +26,4 @@
 
 ## Detail
 
-[system overview](./machine/architecture/system-overview.md) · [data flow / privacy](./machine/architecture/data-flow-and-privacy-boundaries.md) · [public data model](./machine/architecture/public-data-model.md)
+[system overview](./machine/architecture/system-overview.md) · [data flow / privacy](./machine/architecture/data-flow-and-privacy-boundaries.md) · [public data model](./machine/architecture/public-data-model.md) · [recorder](./H14-recorder.md) · [schema](./H16-schema.md)

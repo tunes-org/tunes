@@ -16,4 +16,4 @@
 
 ## Detail
 
-[risk register](./machine/08-risk-register.md) · [H11 legal](./H11-legal-governance.md)
+[risk register](./machine/08-risk-register.md) · [H11 legal](./H11-legal-governance.md) · [assumptions](./H18-assumptions.md)

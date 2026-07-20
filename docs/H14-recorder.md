@@ -1,4 +1,4 @@
-# H12 — Recorder
+# H14 — Recorder
 
 The mobile recorder is the `tunes-ios` contribution client. It records locally, helps the passenger align the journey, and uploads only reviewed and consented derived data by default.
 
@@ -107,4 +107,4 @@ Any future research-restricted raw or excerpt path requires a separate protocol,
 
 ## Related Documents
 
-[How it works](./H04-how-it-works.md) · [Privacy](./H05-privacy.md) · [Quality tiers](./H06-quality-tiers.md) · [Recorder privacy flow](./machine/research/05-privacy-ethics.md) · [Journey alignment](./machine/research/07-journey-alignment.md) · [Passenger metadata](./machine/research/08-passenger-metadata.md) · [Data-flow boundaries](./machine/architecture/data-flow-and-privacy-boundaries.md) · [Raw-audio policy](./machine/decisions/ADR-004-raw-audio-policy.md) · [Derived-only default](./machine/decisions/ADR-005-derived-only-default.md) · [Subjective timing](./machine/decisions/ADR-010-subjective-timing.md) · [Derived upload schema](../schemas/v0.1.0/derived-upload-package.schema.json)
+[How it works](./H04-how-it-works.md) · [Privacy](./H05-privacy.md) · [Quality tiers](./H06-quality-tiers.md) · [Privacy and research ethics](./machine/research/05-privacy-ethics.md) · [Journey alignment](./machine/research/07-journey-alignment.md) · [Passenger metadata](./machine/research/08-passenger-metadata.md) · [Data-flow boundaries](./machine/architecture/data-flow-and-privacy-boundaries.md) · [Raw-audio policy](./machine/decisions/ADR-004-raw-audio-policy.md) · [Derived-only default](./machine/decisions/ADR-005-derived-only-default.md) · [Subjective timing](./machine/decisions/ADR-010-subjective-timing.md) · [Derived upload schema](../schemas/v0.1.0/derived-upload-package.schema.json)
