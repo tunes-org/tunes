@@ -25,8 +25,8 @@
 
 ## Principles (short)
 
-Open · private by default · auditable · honest about uncertainty · offline-first capture · versioned · London-first, portable schema
+Open · private by default · auditable · honest about uncertainty · offline-first capture · versioned for reproducibility · London-first portable schema · resistant to false precision
 
 ## Detail
 
-[machine/governance/project-charter.md](./machine/governance/project-charter.md) · [scope](./machine/governance/scope-statement.md)
+[project charter](./machine/governance/project-charter.md) · [scope](./machine/governance/scope-statement.md) · [measurement philosophy](./H12-measurement-philosophy.md) · [why TUNES exists](./H19-why-tunes-exists.md)

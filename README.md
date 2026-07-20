@@ -18,7 +18,7 @@ Rail noise on passenger journeys is uneven, personal, and poorly documented for 
 
 Those questions need **repeated, real-world observations** across times of day, carriage positions, loads, and devices — something passengers can contribute during normal commuting, not only during scheduled surveys.
 
-TUNES exists to fill that gap **without pretending to replace professional measurement**. Crowdsourced phone recordings are survey-grade evidence with known uncertainty. The project’s job is to make that evidence usable: privacy-preserving by default, quality-tiered, versioned, and open enough that researchers, journalists, and civic groups can reuse it — and honest enough that the public map never implies engineering-grade or health “risk” scores it has not earned.
+TUNES exists to fill that gap **without pretending to replace professional measurement**. Crowdsourced phone recordings are survey-grade at best, with known uncertainty. The project’s job is to make that evidence usable: privacy-preserving by default, quality-tiered, versioned, and open enough that researchers, journalists, and civic groups can reuse it — and honest enough that the public map never implies engineering-grade or health “risk” scores it has not earned.
 
 In short:
 
@@ -164,6 +164,10 @@ Useful human briefs after this README:
 - [H04 — How it works](./docs/H04-how-it-works.md) — capture → release
 - [H05 — Privacy](./docs/H05-privacy.md) — derived-only default
 - [H06 — Quality tiers](./docs/H06-quality-tiers.md) — survey-grade honesty
+- [H12 — Measurement philosophy](./docs/H12-measurement-philosophy.md) — what the evidence can support
+- [H13 — Public map](./docs/H13-public-map.md) — aggregation and uncertainty
+- [H14 — Recorder](./docs/H14-recorder.md) — local-first contribution flow
+- [H19 — Why TUNES exists](./docs/H19-why-tunes-exists.md) — deeper rationale
 
 ---
 

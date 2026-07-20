@@ -160,7 +160,7 @@ Research-facing honesty:
 | Reputation | Soft, private-ish diligence signals; no competitive public volume leaderboards at launch |
 | Moderation | Integrity and conduct; disclose campaign vs casual; ADR for science disputes |
 | Motivation | Personal utility + honest coverage needs; no official-affiliation framing |
-| Fraud | Derived-default + provenance + duplicate/journey checks; tier demotion for weak control |
+| Fraud | Derived-only default + provenance + duplicate/journey checks; tier demotion for weak control |
 | Uncertainty UX | Multi-dimension confidence; survey-grade labelling; sample size always visible |
 | Tiers | A–E working labels must appear in map legend and open data; low tiers never silently equal Tier A |
 
@@ -196,7 +196,7 @@ Research-facing honesty:
 
 ## Recommendation
 
-Adopt a **trust-through-transparency** citizen-science posture: local review and derived-default uploads; layered validation with multi-dimensional confidence; soft reputation for diligence not volume; quality tiers A–E visible on map and in open data; fraud handled via provenance and plausibility checks without punishing honest journey edge cases. Resolve thresholds and ethics-review triggers in Wave 2 ADRs after R5 and pilot ops design — do not invent numeric success rates to justify launch readiness.
+Adopt a **trust-through-transparency** citizen-science posture: local review and derived-only uploads by default; layered validation with multi-dimensional confidence; soft reputation for diligence not volume; quality tiers A–E visible on map and in open data; fraud handled via provenance and plausibility checks without punishing honest journey edge cases. Resolve still-open thresholds and ethics-review triggers through future ADRs after pilot operations evidence — do not invent numeric success rates to justify launch readiness.
 
 ## Confidence
 
@@ -211,7 +211,7 @@ Adopt a **trust-through-transparency** citizen-science posture: local review and
 - [../governance/project-charter.md](../governance/project-charter.md)
 - [../02-research-map.md](../02-research-map.md)
 - [../01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md)
-- [../00-index.md](../00-index-full.md) — shared glossary
+- [H10 glossary](../../H10-glossary.md) — shared terms
 - [../acoustic-survey-methodology.md](../acoustic-survey-methodology.md) — survey-grade honesty; participatory protocol notes
 - [02-acoustic-methodology.md](./02-acoustic-methodology.md)
 - [03-consumer-device-limits.md](./03-consumer-device-limits.md)

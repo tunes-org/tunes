@@ -35,13 +35,13 @@ Do not send illegal images or CSAM in email. If you believe child sexual abuse m
 | Initial assessment | Promptly for clear illegal content; otherwise within **15 working days** where capacity allows |
 | Outcome | Remove/hide content, reject report, request more info, or escalate |
 
-Significant account penalties get a short reason and an appeal path (see [moderation policy](./moderation-policy.md)).
+Significant account penalties get a short reason and an appeal path (see [moderation policy](./moderation.md)).
 
 ---
 
 ## 3. Privacy and erasure
 
-Data subject requests (access, erasure, etc.) should go to `manglekuo@gmail.com` (may be the same address). See the [privacy notice](./privacy-notice.md).
+Data subject requests (access, erasure, etc.) should go to `manglekuo@gmail.com` (may be the same address). See the [privacy notice](./privacy.md).
 
 If personal data was published in an open release, we will remove it from operational systems and future versions where required, and take reasonable steps regarding online copies we control. We cannot erase third-party downloads.
 

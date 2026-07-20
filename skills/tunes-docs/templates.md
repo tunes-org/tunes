@@ -4,7 +4,7 @@ Copy and fill. Keep H\* short; put depth in machine.
 
 ---
 
-## Human brief (`docs/HNN-slug.md`)
+## Core human brief (`docs/H01`–`H11`)
 
 ```markdown
 # HNN — Short title
@@ -26,6 +26,34 @@ One-line framing if needed.
 ```
 
 Add a row to `docs/H00-start-here.md`.
+
+---
+
+## Human topic brief (`docs/H12`–`H19`)
+
+```markdown
+# HNN — Short title
+
+One sentence explaining why this exists.
+
+**For:** intended readers.
+
+**Assumptions:** canonical constraints this summary relies on.
+
+## Topic
+
+Concise summary, table, or diagram linked to machine detail.
+
+> Future work
+>
+> State the missing evidence, decision, legal review, or user test.
+
+## Related Documents
+
+[human brief](./HNN-….md) · [machine source](./machine/…) · [ADR](./machine/decisions/ADR-0NN-….md)
+```
+
+Add the brief to the topic table in `docs/H00-start-here.md`.
 
 ---
 

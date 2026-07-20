@@ -37,6 +37,7 @@ Separate **working assumptions**, **accepted decisions**, and **open questions**
 | 10 | Subjective timing? | [ADR-010](./decisions/ADR-010-subjective-timing.md) — after journey |
 | 11 | Claim language? | [ADR-011](./decisions/ADR-011-claim-language.md) — strict |
 | 12 | Licences? | [ADR-012](./decisions/ADR-012-licences.md) — provisional; **legal before publish** |
+| 13 | Controller and entity path? | [ADR-013](./decisions/ADR-013-controller-and-entity.md) — named controller; CLG by launch |
 
 ## Additional open questions
 
@@ -47,10 +48,10 @@ Separate **working assumptions**, **accepted decisions**, and **open questions**
 
 ## Recommendation
 
-Drive Wave 1 research to produce recommendations for #1–2 and #4–12; convert to ADRs in Wave 2. Keep assumptions 1–8 unless experiments falsify them.
+Questions 1–13 now have ADR dispositions. Treat those ADRs as binding and keep working assumptions 1–8 unless experiments falsify them; use the additional-open-questions list for unresolved work.
 
 **Confidence:** High for the separation of concerns; Low for licence and medical/claim language until legal/acoustic review.
 
 **Depends on experiment/legal/user-test?** Yes — see table.
 
-**Links:** [02-research-map.md](./02-research-map.md); [governance/decision-log.md](./governance/decision-log.md).
+**Links:** [02-research-map.md](./02-research-map.md); [governance/decision-log.md](./governance/decision-log.md); [H18 assumptions](../H18-assumptions.md).

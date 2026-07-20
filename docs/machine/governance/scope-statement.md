@@ -37,7 +37,7 @@
 
 ## Recommendation
 
-Lock London-first + portable schema + three-repo ownership for planning; keep network-breadth and raw-audio edge cases as open decisions tracked in [../01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md).
+Lock London-first + portable schema + three-repo ownership for planning. ADR-001 defers launch breadth; ADR-004/005 make raw-on-device and derived-only upload the defaults. Remaining edge cases stay in [../01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md).
 
 **Confidence:** High for defaults above; Medium for Underground-only vs all London rail at public launch.
 

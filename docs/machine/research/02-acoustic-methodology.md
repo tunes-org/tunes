@@ -174,7 +174,7 @@ Crowd in-service data maxes out at **survey-grade at best** even at Tier A when 
 | Low-frequency energy suggested by LCeq−LAeq | Medical diagnosis or accessibility guarantee |
 | Survey-grade passenger monitoring | Engineering-grade / Class 1 equivalent / TfL-approved |
 
-Exact allowed vocabulary for exposure / discomfort / loudness / risk → claim-language ADR after acoustic + legal review (open question #11).
+Allowed vocabulary for exposure, discomfort, loudness, and risk follows [ADR-011](../decisions/ADR-011-claim-language.md); any broader claim requires new acoustic and legal evidence.
 
 ---
 
@@ -188,7 +188,7 @@ Mirror auditability from professional tables without Class 1 pretence:
 - Device: model, OS, app version, pipeline version  
 - Calibration: offset if any (stored separately), tier, quality flags  
 - Context: position/height proxy, crowding, exclusions  
-- Grade label: survey-grade (crowd) unless a documented reference protocol says otherwise  
+- Grade label: survey-grade at best for crowd collection; a documented reference protocol states its actual grade separately
 - Alignment: snapped vs GNSS accuracy note  
 
 Prefer this **derived** package for upload; raw PCM stays on device by default (R5).
@@ -223,9 +223,11 @@ Adopt a **multi-metric, section-based, survey-grade-honest** methodology: public
 - [../governance/project-charter.md](../governance/project-charter.md)
 - [../02-research-map.md](../02-research-map.md)
 - [../01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md)
-- [../00-index.md](../00-index-full.md) — glossary (section, derived features, survey grade, tiers)
+- [H10 glossary](../../H10-glossary.md) — section, derived features, survey-grade limits, tiers
 - [01-citizen-science.md](./01-citizen-science.md)
 - [03-consumer-device-limits.md](./03-consumer-device-limits.md)
+- [H12 measurement philosophy](../../H12-measurement-philosophy.md)
+- [H15 railway noise taxonomy](../../H15-noise-taxonomy.md)
 - Downstream: R4 calibration/uncertainty; R6 journey model; claim-language ADR; open-data layers (R10)
 
 ### Primary standards and references (do not treat as TUNES results)

@@ -14,7 +14,7 @@ Privacy · Terms · Cookies · Report content · Governance
 ## Map honesty (near legend / first visit)
 
 ```
-Survey-grade crowd data with uncertainty. Not a Class 1 engineering survey. Sample size and quality tiers matter — sparse sections are not definitive rankings.
+Crowd data is survey-grade at best, with uncertainty. Not a Class 1 engineering survey. Sample size and quality tiers matter — sparse sections are not definitive rankings.
 ```
 
 ## OAuth / sign-in

@@ -4,15 +4,15 @@ Three repos (**decided** — ADR-003). Not a monorepo.
 
 | Repo | Owns | Does not own |
 | --- | --- | --- |
-| **tunes** (this) | Charter, research, methodology, schemas, open releases | App UI |
-| **tunes-ios** | Recorder: capture, local process, alignment UX, upload client | Public dataset source of truth |
-| **tunes-web** | Landing, map, server jobs (inspect → aggregate → release) | Native capture; charter |
+| **tunes** (this) | Charter, governance, ADRs, research, methodology, schemas, licences, claim language, open releases | App UI; live map runtime |
+| **tunes-ios** | Recorder: PCM/motion capture, offline local processing, alignment UX, upload client, consent preview | Public dataset source of truth; charter |
+| **tunes-web** | Landing, map, upload intake, server jobs (inspect → aggregate → prepare releases) | Native capture; charter and methodology source of truth |
 
 ## Flow
 
 ```
 tunes-ios  --derived upload-->  tunes-web  --validated release-->  tunes
-tunes      --schema / methodology / licences-->  ios + web
+tunes      --schema / methodology / licences-->  tunes-ios + tunes-web
 ```
 
 ## Paths
@@ -29,8 +29,8 @@ workspace/
 | Repo | Relative path (from this repo root) |
 | --- | --- |
 | tunes | `.` |
-| tunes-ios | [`../tunes-ios`](../tunes-ios) |
-| tunes-web | [`../tunes-web`](../tunes-web) |
+| tunes-ios | [`../tunes-ios`](../../tunes-ios) |
+| tunes-web | [`../tunes-web`](../../tunes-web) |
 
 Remotes: [github.com/tunes-org/tunes](https://github.com/tunes-org/tunes) · [tunes-ios](https://github.com/tunes-org/tunes-ios) · [tunes-web](https://github.com/tunes-org/tunes-web)
 

@@ -4,6 +4,8 @@
 **Repos:** `tunes` (privacy model + consent contracts); implemented in `tunes-ios` (local control) and `tunes-web` (upload, retention, withdrawal)  
 **Must-read inputs:** [project-charter.md](../governance/project-charter.md), [scope-statement.md](../governance/scope-statement.md), [01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md)
 
+**Current disposition:** ADR-004/005 accept the raw-on-device and derived-only defaults; ADR-013 names the pre-incorporation controller. Exact retention and lawful-basis wording still require counsel review.
+
 ---
 
 ## 1. Decision questions
@@ -45,7 +47,7 @@ Every scientific contribution path in `tunes-ios` should implement this sequence
 
 ---
 
-## 3. Why derived-default is the ethical centre of gravity
+## 3. Why the derived-only default is the ethical centre of gravity
 
 Railway carriages are shared spaces. Continuous microphone capture will inevitably include **incidental speech** (passengers, staff, PA). Derived features (e.g. LAeq,T, LCeq, LCpeak, band Leq, clipping flags) can support the programme’s public map and open methodology goals with far less speech reconstructability than waveform upload.
 
@@ -62,7 +64,7 @@ Raw audio remains scientifically useful for some validation (algorithm audits, d
 
 ## 4. GDPR-oriented data tiers (working model)
 
-TUNES must identify a **data controller** (legal advice) before public beta. Controllership is not decided by this research doc; the technical tiers below assume UK GDPR / DPA 2018 duties will bind whoever hosts `tunes-web` uploads and `tunes` releases.
+ADR-013 identifies the pre-incorporation **data controller**; the legal pack must be updated when the CLG becomes controller. The technical tiers below assume UK GDPR / DPA 2018 duties bind the controller operating `tunes-web` uploads and `tunes` releases.
 
 ### Tier framing (contribution / retention, not acoustic quality A–E)
 
@@ -105,7 +107,7 @@ If ever offered:
 
 ### 5.3 Full raw audio (discouraged as product feature)
 
-**Recommendation:** Default **no** — raw does not leave the device (answers open question #4 with “only under restricted research protocols, if ever”).
+**Recommendation:** Default **no** — raw does not leave the device, as accepted by ADR-004 (“only under restricted research protocols, if ever”).
 
 If a future research campaign requires raw:
 
@@ -191,7 +193,7 @@ Free text can contain names, medical detail, or incident narratives. **Recommend
 
 ### Informed consent (minimum content)
 
-- Who is the controller (once known) and how to contact them  
+- The controller and current contact stated in the legal pack
 - What is uploaded for the selected privacy tier  
 - That TUNES is **independent** and not TfL-endorsed  
 - Survey-grade limits of crowd acoustics (no false health certainty)  
@@ -240,9 +242,9 @@ Implement and test in `tunes-ios` + `tunes-web` per the privacy test list in [re
 4. Do not offer short excerpts at launch; revisit only with a documented scientific need.  
 5. Implement **withdrawal**, location minimisation, and honest limits on open-data erasure.  
 6. Protect children and vulnerable users with non-targeting defaults, optional perception items, and ethics escalation for raw/clinical framing.  
-7. Resolve **data-controller identity** with legal advice before public beta.
+7. Keep the **data-controller identity** and CLG transition current under ADR-013; obtain legal review before public beta.
 
-**Confidence:** High for derived-default, 8-step flow, and raw-as-exception; Medium for exact lawful bases, retention periods, and controller identity until counsel reviews; Low for any raw/excerpt productisation until ethics + threat model sign-off.
+**Confidence:** High for the derived-only default, 8-step flow, and raw-as-exception; Medium for exact lawful bases and retention periods until counsel reviews; Low for any raw/excerpt productisation until ethics + threat model sign-off.
 
 **Depends on experiment/legal/user-test?** Yes — **legal** (controller, lawful basis, licences interplay); **user-test** (consent/preview comprehension, withdrawal UX); ethics review before raw/vulnerable campaigns; privacy threat-model exercise in Phase 4.
 
@@ -254,4 +256,6 @@ Implement and test in `tunes-ios` + `tunes-web` per the privacy test list in [re
 - [02-research-map.md](../02-research-map.md) (R5)  
 - [governance/licences.md](../governance/licences.md)  
 - [research-plan.md](../research-plan.md) (privacy tests; Phase 4)  
-- Downstream: R9 subjective experience; R10 open data; Wave 2 privacy-boundary architecture; claim-language ADR  
+- [H05 privacy](../../H05-privacy.md)
+- [H14 recorder](../../H14-recorder.md)
+- Current disposition: [privacy-boundary architecture](../architecture/data-flow-and-privacy-boundaries.md); [ADR-004](../decisions/ADR-004-raw-audio-policy.md); [ADR-005](../decisions/ADR-005-derived-only-default.md); [ADR-011](../decisions/ADR-011-claim-language.md)

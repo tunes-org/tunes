@@ -12,12 +12,13 @@
 
 **Stack (processors):** Vercel · Supabase · Google OAuth · Apple Sign In (planned iOS) · site https://tunesurvey.com  
 
-**ICO fee (self-assessment):** Tier 1 **£52** — pay registration (browser left open for you).
+**ICO fee (self-assessment):** Tier 1 **£52** — registration remains an operational action.
+
 ## Before public beta (minimum docs)
 
 Privacy notice · Terms/contributor rules · Moderation · Cookies · Takedown/reporting · Ownership/governance  
 
-Canon: [`machine/governance/legal/`](./machine/governance/legal/) · Web/ios copies: [`legal/consumers/`](./machine/governance/legal/consumers/)
+Canon: [`machine/governance/legal/`](./machine/governance/legal/) · `tunes-web` / `tunes-ios` copies: [`machine/governance/legal/consumers/`](./machine/governance/legal/consumers/)
 
 ## Privacy gates (short)
 

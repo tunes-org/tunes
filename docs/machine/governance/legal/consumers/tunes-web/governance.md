@@ -31,7 +31,7 @@ Code and data licences are provisional until legal review (see ADR-012). Plannin
 **Controller:** Hao-Tsun Kuo (until CLG incorporation)  
 **Contact:** manglekuo@gmail.com
 
-Entity form follows [ADR-013](../../decisions/ADR-013-controller-and-entity.md): informal named controller(s) until incorporation triggers; then a **company limited by guarantee**. CIC is optional later for funder asset-lock needs.
+Entity form follows [ADR-013](../../../../decisions/ADR-013-controller-and-entity.md): informal named controller(s) until incorporation triggers; then a **company limited by guarantee**. CIC is optional later for funder asset-lock needs.
 
 ## 5. How decisions are made
 
@@ -39,7 +39,7 @@ Binding scientific and programme decisions are recorded as **ADRs** in `tunes` a
 
 ## 6. Community conduct
 
-See the [code of conduct outline](../code-of-conduct-outline.md) and [moderation policy](./moderation-policy.md). A full CoC will be adopted before public community launch.
+See the [code of conduct outline](../../../code-of-conduct-outline.md) and [moderation policy](./moderation.md). A full CoC will be adopted before public community launch.
 
 ## 7. Contact
 

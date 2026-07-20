@@ -53,13 +53,13 @@ tunes       →  schema contracts, methodology, **canonical open releases**
 
 ---
 
-## 4. Three data layers (do not collapse)
+## 4. Public data layers (do not collapse)
 
-Keep these separable in schema, export, and claim language.
+The canonical architecture names four layers. Earlier research labels map as follows: observations → L0; reprocessed metrics → L1; aggregates → L2; passenger interpretations → L3.
 
-### Layer A — Observations (contribution records)
+### L0 — Observations (contribution records)
 
-What a contributor submitted after local review and consent. Prefer **derived features** (levels, spectra summaries, timing, section IDs, metadata). Raw PCM stays on-device by default (open Q #4–5).
+What a contributor submitted after local review and consent. Prefer **derived features** (levels, spectra summaries, timing, section IDs, metadata). ADR-004/005 keep raw PCM on-device and make derived-only upload the default.
 
 Minimum provenance fields (conceptual — exact names in schema ADR):
 
@@ -73,20 +73,24 @@ Minimum provenance fields (conceptual — exact names in schema ADR):
 - Quality tier label (working A–E; see assumptions)
 - Optional: GPS policy used (e.g. topology snap only underground)
 
-### Layer B — Derived metrics (pipeline outputs)
+### L1 — Derived reprocessing
 
-Aggregations and section-level summaries produced by **named pipeline versions** in `tunes-web`:
+New metrics or corrections produced from L0 by a **named pipeline version**. Reprocessing never overwrites a released observation or prior derived release.
+
+### L2 — Aggregates
+
+Section-level summaries produced by **named pipeline versions** in `tunes-web`:
 
 - Station-to-station section metrics with **duration**
 - Sample counts, filters applied, exclusions
 - Uncertainty / spread descriptors (not a single false-precise “the dB”)
 - Objective metrics only — no blended “comfort score”
 
-### Layer C — Passenger interpretations (subjective)
+### L3 — Passenger interpretations (subjective)
 
-Perception survey responses, kept **structurally separate** from Layer B. Never average into an unexplained single score (assumption #5; R9).
+Perception survey responses and passenger-facing interpretations, kept **structurally separate** from objective L1/L2 data. Never average them into an unexplained single score (assumption #5; R9).
 
-**Decision:** Public map defaults should surface Layer B with quality and uncertainty cues; Layer C only as clearly labelled perception overlays or separate views. Layer A is for researchers / reproducibility, not for naive “loudness” pins without context.
+**Decision:** Public map defaults should surface L2 with quality and uncertainty cues; L3 perception only as clearly labelled overlays or separate views. L0/L1 are for researchers and reproducibility, not naive “loudness” pins without context.
 
 ---
 
@@ -100,7 +104,7 @@ Perception survey responses, kept **structurally separate** from Layer B. Never 
 
 ### 5.2 Pipeline version
 
-- Every Layer B artifact pins `pipeline_version` (and preferably git commit / release tag of `tunes-web` jobs)
+- Every L1/L2 artifact pins `pipeline_version` (and preferably git commit / release tag of `tunes-web` jobs)
 - Analysis software/library versions that affect metrics belong in the release manifest
 
 ### 5.3 Dataset release ID
@@ -161,16 +165,16 @@ Provisional planning assumption ([licences.md](../governance/licences.md)):
 
 | Asset | Provisional |
 | --- | --- |
-| App code | MIT or Apache-2.0 |
+| App code | MIT |
 | Docs / methodology in `tunes` | CC BY 4.0 |
-| Public datasets | CC BY 4.0 or CDLA-Permissive |
+| Public datasets | CC BY 4.0 |
 
 **Hard rules:**
 
 - Do **not** redistribute TfL R3291 or other non-open operator reports inside data packages; cite as methodology reference only
 - Do **not** mix proprietary operator datasets into open packages without explicit licence compatibility
 - Machine-readable licence + attribution in every release manifest
-- Legal review **before** first public publish (open Q #12)
+- Legal review **before** first public publish (ADR-012 remains provisional)
 
 Independence goal: prefer licences that allow civic and academic reuse without a non-commercial trap that later conflicts with partnerships (see R11).
 
@@ -180,8 +184,8 @@ Independence goal: prefer licences that allow civic and academic reuse without a
 
 Offer at least:
 
-1. **Research package** — Layer A (derived observations) + Layer B + Layer C, with full provenance columns  
-2. **Map package** — Layer B section summaries + quality/uncertainty fields only  
+1. **Research package** — L0 observations + L1 reprocessing + L2 aggregates + separate L3 perception records, with full provenance columns
+2. **Map package** — L2 section summaries + quality/uncertainty fields only
 3. **Schema + methodology bundle** — docs and JSON Schema / OpenAPI-style contracts from `tunes`
 
 Formats: prefer open tabular + JSON for machine use; document encodings. Do not require proprietary GIS to read core metrics.
@@ -196,7 +200,7 @@ Reproducibility must not fight the privacy default:
 
 - Derived-only public releases by default
 - Strip or generalise fields that re-identify individuals (exact timestamps + rare routes; device serials; free-text that names people)
-- Retention and controller roles are open (additional open questions in [01](../01-assumptions-and-open-questions.md)); they constrain how long Layer A can be reprocessed
+- Retention periods remain open (see [01](../01-assumptions-and-open-questions.md)); they constrain how long L0 can be reprocessed. Controller roles follow ADR-013.
 - If a restricted raw-audio tier ever exists, it is **not** part of the default open release
 
 Detail belongs in R5 / privacy ADR; this doc only requires that open packages are designed as **derived, versioned, and minimised**.
@@ -216,7 +220,7 @@ Detail belongs in R5 / privacy ADR; this doc only requires that open packages ar
 
 ---
 
-## 12. Open items for Wave 2 ADRs
+## 12. Future decisions
 
 - Exact schema field names and SemVer policy  
 - Whether contribution store is re-derivable indefinitely or time-limited  
@@ -228,7 +232,7 @@ Detail belongs in R5 / privacy ADR; this doc only requires that open packages ar
 
 ## Recommendation
 
-Adopt **immutable, versioned releases owned by `tunes`**, with three explicit layers (observations / derived metrics / passenger interpretations), mandatory pins for **schema + pipeline + device/calibration context**, machine-readable **quality and uncertainty**, and a hard rule that reprocessing creates a **new** derived dataset. Prefer derived exports; keep raw audio off the open release path by default. Treat licences as provisional until legal review; never package non-open operator reports.
+Adopt **immutable, versioned releases owned by `tunes`**, with four explicit layers (L0 observations / L1 reprocessing / L2 aggregates / L3 interpretations), mandatory pins for **schema + pipeline + device/calibration context**, machine-readable **quality and uncertainty**, and a hard rule that reprocessing creates a **new** derived dataset. Prefer derived exports; keep raw audio off the open release path by default. Treat licences as provisional until legal review; never package non-open operator reports.
 
 **Confidence:** High for ownership, immutability, and layer separation (aligned with charter and repos). Medium for exact export formats and archive host. Low for final licence text until legal.
 
@@ -243,6 +247,7 @@ Adopt **immutable, versioned releases owned by `tunes`**, with three explicit la
 - [../01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md)
 - [../02-research-map.md](../02-research-map.md)
 - [../acoustic-survey-methodology.md](../acoustic-survey-methodology.md)
-- [04-calibration-uncertainty.md](./04-calibration-uncertainty.md) (when written)
-- [05-privacy-ethics.md](./05-privacy-ethics.md) (when written)
+- [04-calibration-uncertainty.md](./04-calibration-uncertainty.md)
+- [05-privacy-ethics.md](./05-privacy-ethics.md)
+- [H13 public map](../../H13-public-map.md)
 - [11-funding-partnerships.md](./11-funding-partnerships.md)

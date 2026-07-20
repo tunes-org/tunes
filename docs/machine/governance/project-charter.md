@@ -45,8 +45,8 @@ Scientific validity of the public map, health risk scores, or engineering-grade 
 
 Treat this charter as the binding north star for all three repos; route scientific disputes to ADRs in `tunes`.
 
-**Confidence:** High for mission and repo split; Medium for exact initial London network breadth (open decision #1).
+**Confidence:** High for mission and repo split; Medium for exact launch breadth, which ADR-001 defers until pilot evidence.
 
 **Depends on experiment/legal/user-test?** Stakeholder discussion for partnerships; legal for controller roles.
 
-**Links:** [scope-statement.md](./scope-statement.md); [repos.md](./repos.md); [../00-index-full.md](../00-index-full.md); humans [`../../H00-start-here.md`](../../H00-start-here.md).
+**Links:** [scope-statement.md](./scope-statement.md); [repos.md](./repos.md); [../00-index-full.md](../00-index-full.md); humans [`../../H00-start-here.md`](../../H00-start-here.md) and [H19 — Why TUNES exists](../../H19-why-tunes-exists.md).

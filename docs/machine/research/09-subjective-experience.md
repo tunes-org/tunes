@@ -9,7 +9,7 @@
 
 TUNES measures **acoustic conditions** and **passenger experience**. Those are related but not the same. A section can be energetically loud yet tolerable, or moderately loud yet sharp, screechy, or conversation-destroying. Parents and sensory-sensitive travellers often care about **character and coping**, not only a single level.
 
-Open question #10: collect perception **during vs after** the journey? Programme lean: **after**. Open question #11 (claim language) intersects: discomfort and “risk” wording must not outrun evidence.
+ADR-010 resolves timing as **after** the journey. ADR-011 governs discomfort and “risk” wording so claims do not outrun evidence.
 
 Working assumption #5: **objective ≠ subjective** in the data model; no unexplained blended score ([01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md)).
 
@@ -108,7 +108,7 @@ Rules:
 - Public map may show **side-by-side** layers (e.g. measured level distribution vs reported discomfort) with independent sample sizes.  
 - **Forbidden:** one unexplained colour that mixes dB and survey.  
 - **Allowed later:** published, cited composite indices with formula, inputs, and limitations — as a **third derived layer**, versioned, never overwriting raw items or acoustic features.  
-- Claim language: prefer “reported discomfort”, “reported speech interference”, “felt child suitability”; avoid “acoustic risk”, “harm”, “unsafe” unless a separate ADR and evidence bar are met (open Q #11).
+- Claim language: prefer “reported discomfort”, “reported speech interference”, “felt child suitability”; avoid “acoustic risk”, “harm”, or “unsafe” unless ADR-011 is replaced by a decision supported by new evidence.
 
 ## Attachment scope
 
@@ -166,7 +166,7 @@ Display when perception layer is on:
 
 Do not imply operator endorsement of findings.
 
-## Decisions recommended for Wave 2 ADRs
+## Current disposition (ADR-010/011)
 
 1. **Default timing = after journey**, post-alignment; not during.  
 2. **Survey optional** for casual contributions; campaigns may require it.  
@@ -189,6 +189,6 @@ Ship an **optional, post-journey structured perception survey** in `tunes-ios`, 
 
 **Confidence:** High for after-vs-during and objective/subjective separation; Medium for exact core item list and scale anchors until user testing and claim-language ADR; Low for any population representativeness claim.
 
-**Depends on experiment/legal/user-test?** **Yes** — usability tests for length and timing; accessibility review of wording; claim-language ADR (open Q #11); legal/ethics check before clinical or child-focused campaigns; not required to draft the schema separation itself.
+**Depends on experiment/legal/user-test?** **Yes** — usability tests for length and timing; accessibility review of wording; ADR-011 review if claim scope changes; legal/ethics check before clinical or child-focused campaigns; not required to draft the schema separation itself.
 
-**Links to related docs:** [08-passenger-metadata.md](./08-passenger-metadata.md); [07-journey-alignment.md](./07-journey-alignment.md); [02-acoustic-methodology.md](./02-acoustic-methodology.md); [05-privacy-ethics.md](./05-privacy-ethics.md); [10-open-data-reproducibility.md](./10-open-data-reproducibility.md); [../01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md) (open Q #10–11); [../governance/project-charter.md](../governance/project-charter.md); [../governance/scope-statement.md](../governance/scope-statement.md); `tunes-ios` [privacy-client-flow.md](../../../../tunes-ios/docs/privacy-client-flow.md); `tunes-ios` [product-scope.md](../../../../tunes-ios/docs/product-scope.md).
+**Links to related docs:** [08-passenger-metadata.md](./08-passenger-metadata.md); [07-journey-alignment.md](./07-journey-alignment.md); [02-acoustic-methodology.md](./02-acoustic-methodology.md); [05-privacy-ethics.md](./05-privacy-ethics.md); [10-open-data-reproducibility.md](./10-open-data-reproducibility.md); [ADR-010](../decisions/ADR-010-subjective-timing.md); [ADR-011](../decisions/ADR-011-claim-language.md); [H13 public map](../../H13-public-map.md); [../governance/project-charter.md](../governance/project-charter.md); [../governance/scope-statement.md](../governance/scope-statement.md); `tunes-ios` [privacy-client-flow.md](../../../../tunes-ios/docs/privacy-client-flow.md); `tunes-ios` [product-scope.md](../../../../tunes-ios/docs/product-scope.md).

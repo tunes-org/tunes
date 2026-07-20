@@ -43,4 +43,4 @@ Publish L2 for the first public map; offer L0/L1 to researchers under the same o
 
 **Depends on experiment/legal/user-test?** Legal for anonymisation; pilot for aggregate stability.
 
-**Links:** [../research/10-open-data-reproducibility.md](../research/10-open-data-reproducibility.md); [data-flow-and-privacy-boundaries.md](./data-flow-and-privacy-boundaries.md); `[data-contracts.md](../../../../tunes-web/docs/tunes/data-contracts.md)`.
+**Links:** [../research/10-open-data-reproducibility.md](../research/10-open-data-reproducibility.md); [data-flow-and-privacy-boundaries.md](./data-flow-and-privacy-boundaries.md); [H13 public map](../../H13-public-map.md); [H16 schema](../../H16-schema.md); `[data-contracts.md](../../../../tunes-web/docs/tunes/data-contracts.md)`.

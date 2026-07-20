@@ -1,4 +1,6 @@
-Project Brief for Research, Planning and Implementation
+# Original research and implementation brief
+
+> Historical source brief. Accepted ADRs, current architecture, schemas, governance, and legal canon are authoritative where they differ from this document.
 
 TUNES
 

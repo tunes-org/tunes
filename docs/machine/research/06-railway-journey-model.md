@@ -30,7 +30,7 @@ Do **not** make `TubeLine`, `Zone`, or `UndergroundStation` the root types of th
 - Optional profile modules (e.g. `profiles/london.yaml`)  
 - Display strings in `tunes-web` / `tunes-ios`  
 
-This answers open question #2: **generic core; London as profile**. It also keeps later cities from forking the schema.
+ADR-002 accepts this answer to brief question #2: **generic core; London as profile**. It also keeps later cities from forking the schema.
 
 Independence reminder: using publicly available network facts or open transport data does **not** imply TfL operation, approval, or endorsement.
 
@@ -57,7 +57,7 @@ The following is a decision-oriented conceptual model for Phase 1 JSON examples 
 | **Direction** | Travel orientation on a line/branch | Prefer stable IDs + localised labels (eastbound/westbound are labels) |
 | **Station** | Stop with stable ID | Shareable across systems where physically shared |
 | **Platform** | Boarding face at a station | Optional for v1 map; valuable for research metadata later |
-| **Section** | **Station-to-station** directed segment | Canonical comparison unit — see §4 |
+| **Section** | Directed interval between consecutive stations | Canonical comparison unit — see §4 |
 | **Track / running direction** | Physical sense if known | Optional; do not require for crowd contributions |
 
 ### 3.3 Service and vehicle
@@ -87,7 +87,7 @@ Acoustic observations attach primarily to:
 
 1. **Section** (required for public comparison)  
 2. **Duration `T`** for that section (required with any Leq)  
-3. Optional: service/trip, stock, carriage position, posture, device/calibration (R4), subjective block (R9, separate)
+3. Optional: service/trip, stock, carriage position, posture, device/calibration (R4), perception report (R9, separate)
 
 Platforms, exact unit IDs, and fine track models enrich research but must not block ordinary contributions.
 
@@ -104,7 +104,7 @@ Professional interior surveys report per **station-to-station** leg with transit
 - Duration `T` makes LAeq interpretable  
 - Bidirectional reporting stays natural (A→B ≠ B→A)  
 
-Glossary alignment: **section** = station-to-station journey segment with duration.
+Glossary alignment: **section** = directed interval between consecutive stations, with duration.
 
 ### 4.2 Test the assumption (do not freeze blindly)
 
@@ -224,5 +224,7 @@ Crowd measurements remain **survey-grade at best** even when section IDs are per
 - [acoustic-survey-methodology.md](../acoustic-survey-methodology.md) (§1.5 station-to-station practice)  
 - [01-assumptions-and-open-questions.md](../01-assumptions-and-open-questions.md) (Q1, Q2; assumptions 1, 3)  
 - [02-research-map.md](../02-research-map.md) (R6)  
-- [00-index.md](../00-index-full.md) (glossary: section, London-first portable schema)  
-- Downstream: R7 journey alignment; R8 passenger metadata; R10 open data; Wave 2 journey-segmentation architecture / schema ADR  
+- [H10 glossary](../../H10-glossary.md) (section, London-first portable schema)
+- [H16 schema](../../H16-schema.md)
+- [H17 portability](../../H17-portability.md)
+- Current disposition: [journey-segmentation architecture](../architecture/journey-segmentation-model.md) and [ADR-002](../decisions/ADR-002-generic-railway-schema.md); related detail in R7, R8, and R10

@@ -23,7 +23,7 @@ Also update `docs/privacy-client-flow.md` to cite these drafts — do not invent
 
 1. Edit canon in `tunes` first.  
 2. Implement the R5 **8-step** flow; nothing leaves the device before consent.  
-3. Default payload = derived only (ADR-004/005).  
+3. Default payload = derived-only (ADR-004/005).
 4. Replace placeholders before public beta.  
 5. Link to full web privacy notice: `https://tunesurvey.com/privacy`
 

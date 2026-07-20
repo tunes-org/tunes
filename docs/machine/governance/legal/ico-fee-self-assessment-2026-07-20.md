@@ -17,7 +17,7 @@
 | 7 | Decide how/why used (controller)? | Yes |
 | 8–11 | Legal/financial, health/education, property, listed sectors | No |
 | 12 | Exempt purposes only? | No |
-| 13 | Staff | No employees or sole trader |
+| 13 | Staff | Selected “No employees or sole trader” because there are no employees; this does not classify the informal project as a sole trader |
 | 14 | Small pension scheme? | No |
 | 15 | Charity / exempt charity? | No |
 | 16 | Existing registration? | No — never paid before |

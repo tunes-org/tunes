@@ -21,7 +21,7 @@ Paths below are **repo-root relative** (stable under symlinks).
 | Layer | Where | Audience | Style |
 | --- | --- | --- | --- |
 | **Baseline** | `README.md` | First human contact | Long enough for baseline: why TUNES, what each repo does, how flow works |
-| **Human** | `docs/H00`…`H10` | Reading, decisions, onboarding | Short · bullets · tables · one job per doc |
+| **Human** | `docs/H00`…`H19` | Reading, decisions, onboarding | Core briefs + linked topic briefs |
 | **Machine** | `docs/machine/` | Implementers, agents, deep research, frequent edit | Long · detailed · linked ADRs · owns / does not own |
 
 Redirect stub: `docs/00-index.md` → README + H00 + machine index.
@@ -41,11 +41,11 @@ Decision changed?                    → ADR (or machine doc) first, then update
 2. When a decision, tier, privacy default, or claim limit changes → update the **machine** source (ADR / architecture / research), then refresh the **H\*** one-liner or table.
 3. Do **not** invent product feature code from docs alone in the `tunes` repo.
 4. Acoustic / calibration / pilot / claims work must read `docs/machine/acoustic-survey-methodology.md` (TfL R3291 practice notes = **reference only**, not affiliation or redistributable data).
-5. Cross-link: every H\* ends with a **Detail** line to machine sources; machine docs that humans might open should point back to README or H00.
+5. Cross-link: every H\* ends with **Detail** or **Related Documents**, including machine sources; machine docs that humans might open should point back to README, H00, or the relevant topic brief.
 
 ## Human brief standard (H*)
 
-**Shape**
+**Core brief shape (`H01`–`H11`)**
 
 - Title: `# H0N — Short name`
 - Lead with the decision or fact, not preamble
@@ -53,11 +53,19 @@ Decision changed?                    → ADR (or machine doc) first, then update
 - One purpose per file
 - End with `## Detail` + relative links into `machine/`
 
+**Topic brief shape (`H12`–`H19`)**
+
+- Title: `# HNN — Short name`
+- State who it is for and its assumptions
+- Summarise canonical machine sources; do not replace them
+- Use `> Future work` for evidence, legal, or product gaps
+- End with `## Related Documents`, including the relevant machine sources
+
 **Do**
 
 - Summarise Accepted ADRs at a glance (see H03 pattern)
 - State claim limits and non-affiliation clearly
-- Keep reading time for the H00 path roughly ~15 minutes total
+- Keep the H00 **core** path roughly ~15 minutes total; topic briefs are references
 
 **Do not**
 
@@ -138,7 +146,7 @@ Docs in `tunes` describe contracts; ios/web implement them. Do not move charter 
 
 - [ ] Edited the correct layer (README / H\* / machine)
 - [ ] If decision changed: ADR or machine source updated **and** matching H\* refreshed
-- [ ] H\* still short; detail lives in machine links
+- [ ] H\* follows its core-brief or topic-brief shape; implementation detail lives in machine links
 - [ ] Non-affiliation + claim limits intact where the topic touches public claims
 - [ ] New H\* or ADR indexed (H00 and/or `decisions/README.md`)
 - [ ] Links are relative and one hop to the source of truth

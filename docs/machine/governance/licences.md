@@ -6,9 +6,9 @@
 
 | Asset | Provisional licence | Notes |
 | --- | --- | --- |
-| Application code (`tunes-ios`, `tunes-web`) | MIT or Apache-2.0 | Prefer one OSI licence across app repos; final pick in ADR |
+| Application code (`tunes-ios`, `tunes-web`) | MIT | Accepted provisional direction in ADR-012 |
 | Documentation in `tunes` | CC BY 4.0 | Methodology text citable with attribution |
-| Public datasets / schema examples | CC BY 4.0 or CDLA-Permissive | Prefer licences compatible with open civic reuse; avoid non-commercial if independence is a goal |
+| Public datasets / schema examples | CC BY 4.0 | Accepted provisional direction in ADR-012 |
 | Third-party methodology references (e.g. TfL R3291) | **Not redistributed** | Cite as reference only; FOI report is not open-licensed |
 
 ## Principles
@@ -19,10 +19,10 @@
 
 ## Recommendation
 
-Default planning assumption: **MIT** (code) + **CC BY 4.0** (docs/data), with a dedicated ADR before first public release.
+Default planning assumption: **MIT** (code) + **CC BY 4.0** (docs/data), as accepted provisionally by ADR-012 and subject to legal confirmation before first public release.
 
 **Confidence:** Low–Medium (needs legal).
 
 **Depends on experiment/legal/user-test?** **Legal** required before publish.
 
-**Links:** [decision-log.md](./decision-log.md); research `10-open-data-reproducibility.md`.
+**Links:** [decision-log.md](./decision-log.md); [ADR-012](../decisions/ADR-012-licences.md); [R10 open data](../research/10-open-data-reproducibility.md).

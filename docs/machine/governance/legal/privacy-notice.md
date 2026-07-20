@@ -13,7 +13,7 @@ TUNES is **independent**. It is **not** operated, approved, or endorsed by Trans
 
 ## 1. Who we are (controller)
 
-**Controller:** Hao-Tsun Kuo (sole trader / informal project controller until incorporation)  
+**Controller:** Hao-Tsun Kuo (informal project controller until incorporation)
 **Contact:** manglekuo@gmail.com  
 **Website:** https://tunesurvey.com  
 

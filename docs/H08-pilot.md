@@ -27,4 +27,4 @@ Central · Jubilee · Victoria · Northern — noisy + quieter contrast sections
 
 ## Detail
 
-[london pilot](./machine/07-london-pilot.md) · [ADR-001](./machine/decisions/ADR-001-initial-network-scope.md) · [R3291 practice notes](./machine/acoustic-survey-methodology.md)
+[london pilot](./machine/07-london-pilot.md) · [ADR-001](./machine/decisions/ADR-001-initial-network-scope.md) · [R3291 practice notes](./machine/acoustic-survey-methodology.md) · [recorder](./H14-recorder.md) · [assumptions](./H18-assumptions.md)
