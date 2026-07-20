@@ -1,0 +1,7 @@
+.DS_Store
+*.pem
+.env
+.env.local
+.env.*.local
+LOCAL_NOTES.md
+PUSH_NOTES.md
