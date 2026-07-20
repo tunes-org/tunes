@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1.0",
+  "network_profile_id": "london-underground@2026-07-20",
+  "city": {
+    "id": "london",
+    "label": "London"
+  },
+  "transport_system": {
+    "id": "london-underground",
+    "label": "London Underground"
+  },
+  "lines": [
+    {
+      "id": "central",
+      "label": "Central line"
+    }
+  ],
+  "stations": [
+    { "id": "oxford-circus", "label": "Oxford Circus" },
+    { "id": "bond-street", "label": "Bond Street" },
+    { "id": "marble-arch", "label": "Marble Arch" }
+  ],
+  "sections": [
+    {
+      "id": "central.oxford-circus.bond-street.westbound",
+      "line_id": "central",
+      "from_station_id": "oxford-circus",
+      "to_station_id": "bond-street",
+      "direction_id": "westbound",
+      "direction_label": "Westbound",
+      "typical_duration_seconds": 95
+    },
+    {
+      "id": "central.bond-street.marble-arch.westbound",
+      "line_id": "central",
+      "from_station_id": "bond-street",
+      "to_station_id": "marble-arch",
+      "direction_id": "westbound",
+      "direction_label": "Westbound",
+      "typical_duration_seconds": 110
+    }
+  ]
+}

@@ -5,3 +5,4 @@
 .env.*.local
 LOCAL_NOTES.md
 PUSH_NOTES.md
+node_modules/

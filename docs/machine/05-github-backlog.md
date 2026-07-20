@@ -1,6 +1,8 @@
-# GitHub backlog (epics) — markdown only
+# GitHub backlog (epics)
 
-**Status:** Planning backlog. Do **not** open GitHub Issues in this docs wave. Tag future issues `repo:tunes` | `repo:tunes-ios` | `repo:tunes-web`.
+**Status:** Epics tracked as GitHub Issues in [`tunes-org/tunes`](https://github.com/tunes-org/tunes/issues). This file remains the canonical definition. Tag issues `repo:tunes` | `repo:tunes-ios` | `repo:tunes-web`.
+
+Re-create epics idempotently: `./scripts/create-backlog-issues.sh`
 
 ## Epic E0 — Programme foundations (`repo:tunes`)
 
@@ -71,7 +73,7 @@ Problem · Scope · Non-goals · Acceptance · Tests · Dependencies · Research
 - `tunes-ios/docs/backlog-outline.md`
 - `tunes-web/docs/tunes/backlog-outline.md`
 
-**Recommendation:** Open Issues only after Phase 1 schema freeze.
+**Recommendation:** Child tasks after schema `v0.1.0` examples land; freeze before public dataset release.
 
 **Confidence:** Medium.
 

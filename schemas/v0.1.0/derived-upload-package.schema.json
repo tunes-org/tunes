@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tunes.dev/schemas/v0.1.0/derived-upload-package.schema.json",
+  "title": "TUNES derived upload package",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "network_profile_id",
+    "session_id",
+    "recorded_at",
+    "consent",
+    "sections"
+  ],
+  "properties": {
+    "schema_version": { "$ref": "common.schema.json#/$defs/schemaVersion" },
+    "processing_pipeline_version": {
+      "type": ["string", "null"],
+      "description": "Set by server on ingest; null on client export."
+    },
+    "network_profile_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9._@-]+$"
+    },
+    "session_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "line_id": { "type": "string" },
+    "consent": { "$ref": "consent-metadata.schema.json" },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "section-measurement.schema.json" }
+    },
+    "session_quality_flags": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/qualityFlag" },
+      "uniqueItems": true
+    },
+    "contribution_pseudonym": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9_-]{8,64}$"
+    }
+  }
+}

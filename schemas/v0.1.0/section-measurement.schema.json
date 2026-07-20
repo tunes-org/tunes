@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tunes.dev/schemas/v0.1.0/section-measurement.schema.json",
+  "title": "TUNES section measurement",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "section_id",
+    "direction_id",
+    "duration_T_seconds",
+    "metrics",
+    "device_model",
+    "os_version",
+    "app_version",
+    "calibration_state",
+    "quality_tier",
+    "quality_flags"
+  ],
+  "properties": {
+    "schema_version": { "$ref": "common.schema.json#/$defs/schemaVersion" },
+    "section_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9._-]+$",
+      "description": "Stable section identifier within a network profile."
+    },
+    "direction_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9._-]+$"
+    },
+    "duration_T_seconds": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "metrics": { "$ref": "common.schema.json#/$defs/sectionMetrics" },
+    "device_model": { "type": "string", "minLength": 1 },
+    "os_version": { "type": "string", "minLength": 1 },
+    "app_version": { "type": "string", "minLength": 1 },
+    "calibration_state": {
+      "type": "string",
+      "enum": [
+        "unknown",
+        "known_model_no_profile",
+        "model_profile",
+        "individual_field_offset",
+        "external_calibrated_mic",
+        "reference_slm_protocol"
+      ]
+    },
+    "quality_tier": { "$ref": "common.schema.json#/$defs/qualityTier" },
+    "quality_flags": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/qualityFlag" },
+      "uniqueItems": true
+    },
+    "uncertainty": { "$ref": "common.schema.json#/$defs/uncertaintyDimensions" },
+    "alignment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["boundary_confirmed", "suggested_boundary"],
+      "properties": {
+        "suggested_boundary": { "type": "boolean" },
+        "boundary_confirmed": { "type": "boolean" },
+        "user_override_reason": { "type": "string", "maxLength": 500 }
+      }
+    },
+    "subjective": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "loudness_1_to_5": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "comfort_1_to_5": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "free_text": { "type": "string", "maxLength": 280 }
+      }
+    }
+  }
+}

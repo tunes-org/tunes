@@ -1,0 +1,103 @@
+{
+  "schema_version": "0.1.0",
+  "processing_pipeline_version": null,
+  "network_profile_id": "london-underground@2026-07-20",
+  "session_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+  "recorded_at": "2026-07-20T08:12:34Z",
+  "line_id": "central",
+  "consent": {
+    "schema_version": "0.1.0",
+    "consent_class": "derived_only_default",
+    "consent_timestamp": "2026-07-20T08:15:00Z",
+    "upload_preview_acknowledged": true,
+    "fields_sent": [
+      "section_id",
+      "direction_id",
+      "duration_T_seconds",
+      "metrics.LAeq_T_dB",
+      "metrics.LCeq_T_dB",
+      "metrics.weighting",
+      "device_model",
+      "os_version",
+      "app_version",
+      "calibration_state",
+      "quality_tier",
+      "quality_flags",
+      "uncertainty"
+    ],
+    "withdrawal_handle": "wh_7f3k9m2p",
+    "locale": "en-GB"
+  },
+  "sections": [
+    {
+      "schema_version": "0.1.0",
+      "section_id": "central.oxford-circus.bond-street.westbound",
+      "direction_id": "westbound",
+      "duration_T_seconds": 92.4,
+      "metrics": {
+        "LAeq_T_dB": 78.6,
+        "LCeq_T_dB": 81.2,
+        "LCpeak_dB": 93.1,
+        "weighting": "A",
+        "duration_T_seconds": 92.4,
+        "band_summaries_dB": {
+          "125Hz": 71.0,
+          "500Hz": 76.4,
+          "2000Hz": 79.8
+        }
+      },
+      "device_model": "iPhone15,2",
+      "os_version": "iOS 18.5",
+      "app_version": "0.0.1-spike",
+      "calibration_state": "known_model_no_profile",
+      "quality_tier": "C",
+      "quality_flags": [],
+      "uncertainty": {
+        "acoustic_level": 0.55,
+        "frequency_content": 0.5,
+        "journey_assignment": 0.82,
+        "device_calibration": 0.45,
+        "user_metadata": 0.9,
+        "subjective_response": null
+      },
+      "alignment": {
+        "suggested_boundary": true,
+        "boundary_confirmed": true
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "section_id": "central.bond-street.marble-arch.westbound",
+      "direction_id": "westbound",
+      "duration_T_seconds": 108.0,
+      "metrics": {
+        "LAeq_T_dB": 80.1,
+        "LCeq_T_dB": 82.4,
+        "LCpeak_dB": 94.0,
+        "weighting": "A",
+        "duration_T_seconds": 108.0
+      },
+      "device_model": "iPhone15,2",
+      "os_version": "iOS 18.5",
+      "app_version": "0.0.1-spike",
+      "calibration_state": "known_model_no_profile",
+      "quality_tier": "C",
+      "quality_flags": ["call_or_interruption"],
+      "uncertainty": {
+        "acoustic_level": 0.52,
+        "frequency_content": 0.48,
+        "journey_assignment": 0.76,
+        "device_calibration": 0.45,
+        "user_metadata": 0.88,
+        "subjective_response": null
+      },
+      "alignment": {
+        "suggested_boundary": false,
+        "boundary_confirmed": true,
+        "user_override_reason": "Held between stations after Bond Street"
+      }
+    }
+  ],
+  "session_quality_flags": [],
+  "contribution_pseudonym": "cn_9x2m4k8p"
+}

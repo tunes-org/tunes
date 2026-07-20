@@ -30,3 +30,14 @@ Phases **2–3** before a pretty map. Bad sections destroy trust.
 ## Detail
 
 [full roadmap](./machine/04-roadmap.md) · [backlog](./machine/05-github-backlog.md) · [tests](./machine/06-test-strategy.md)
+
+## Phase 2+ engineering (when code starts)
+
+| Task | When |
+| --- | --- |
+| Branch protection on `main` | First collaborator or before public beta — [`.github/BRANCH_PROTECTION.md`](./../.github/BRANCH_PROTECTION.md) |
+| CI on `tunes-web` | `pnpm lint` / `typecheck` / `build` |
+| CI on `tunes-ios` | When Xcode project exists (placeholder until Phase 2) |
+| Issue / PR templates | All three repos |
+| LICENSE files | Provisional per [ADR-012](./machine/decisions/ADR-012-licences.md) |
+| JSON schema `v0.1.0` | [schemas/README.md](../schemas/README.md) |

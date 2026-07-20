@@ -1,0 +1,70 @@
+name: Epic
+description: Programme epic tracked against the markdown backlog
+title: "[epic] "
+labels: ["epic"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Mirror an epic from [05-github-backlog.md](https://github.com/tunes-org/tunes/blob/main/docs/machine/05-github-backlog.md).
+        Break down into child tasks after the epic is accepted.
+
+  - type: dropdown
+    id: repo
+    attributes:
+      label: Primary repo label
+      options:
+        - repo:tunes
+        - repo:tunes-ios
+        - repo:tunes-web
+    validations:
+      required: true
+
+  - type: input
+    id: epic_id
+    attributes:
+      label: Epic ID
+      placeholder: "E1 — Schema & examples"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+    validations:
+      required: true
+
+  - type: textarea
+    id: non_goals
+    attributes:
+      label: Non-goals
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+    validations:
+      required: true
+
+  - type: textarea
+    id: tests
+    attributes:
+      label: Tests
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Privacy / data implications

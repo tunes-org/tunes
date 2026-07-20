@@ -52,6 +52,10 @@ See [governance/repos.md](./governance/repos.md). Multi-repo is **accepted** ([A
 - [architecture/public-data-model.md](./architecture/public-data-model.md)
 - [decisions/](./decisions/) — ADR-001 … ADR-012
 
+### Schemas (Phase 1 prototype)
+
+- [schemas/README.md](../../schemas/README.md) — JSON Schema `v0.1.0` + validated examples
+
 ### Synthesis (Wave 3)
 
 - [04-roadmap.md](./04-roadmap.md)

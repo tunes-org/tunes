@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1.0",
+  "consent_class": "derived_only_default",
+  "consent_timestamp": "2026-07-20T08:15:00Z",
+  "upload_preview_acknowledged": true,
+  "fields_sent": [
+    "section_id",
+    "direction_id",
+    "duration_T_seconds",
+    "metrics.LAeq_T_dB",
+    "metrics.LCeq_T_dB",
+    "metrics.weighting",
+    "device_model",
+    "os_version",
+    "app_version",
+    "calibration_state",
+    "quality_tier",
+    "quality_flags",
+    "uncertainty"
+  ],
+  "withdrawal_handle": "wh_7f3k9m2p",
+  "locale": "en-GB"
+}

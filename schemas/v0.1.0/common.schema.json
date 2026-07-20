@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tunes.dev/schemas/v0.1.0/common.schema.json",
+  "title": "TUNES common definitions",
+  "type": "object",
+  "$defs": {
+    "schemaVersion": {
+      "type": "string",
+      "const": "0.1.0",
+      "description": "Schema version for this contract family."
+    },
+    "qualityTier": {
+      "type": "string",
+      "enum": ["A", "B", "C", "D", "E"],
+      "description": "Working quality tier (ADR-006)."
+    },
+    "qualityFlag": {
+      "type": "string",
+      "enum": [
+        "clipping",
+        "dropout",
+        "sample_rate_change",
+        "bluetooth_input",
+        "voice_processing_mode",
+        "agc_suspected",
+        "obstructed_mic",
+        "pocket_or_bag",
+        "call_or_interruption",
+        "too_short",
+        "missing_stations",
+        "implausible_speed",
+        "walking_mixed_with_train",
+        "route_mismatch",
+        "duplicate",
+        "excessive_speech",
+        "unknown_device_profile"
+      ]
+    },
+    "consentClass": {
+      "type": "string",
+      "enum": ["derived_only_default", "derived_with_subjective", "research_restricted_future"]
+    },
+    "uncertaintyDimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "acoustic_level": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "frequency_content": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "journey_assignment": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "device_calibration": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "user_metadata": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "subjective_response": { "type": ["number", "null"], "minimum": 0, "maximum": 1 }
+      }
+    },
+    "sectionMetrics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["LAeq_T_dB", "weighting", "duration_T_seconds"],
+      "properties": {
+        "LAeq_T_dB": { "type": "number" },
+        "LCeq_T_dB": { "type": "number" },
+        "LCpeak_dB": { "type": "number" },
+        "weighting": {
+          "type": "string",
+          "enum": ["A", "C", "Z"]
+        },
+        "duration_T_seconds": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "band_summaries_dB": {
+          "type": "object",
+          "additionalProperties": { "type": "number" }
+        }
+      }
+    }
+  }
+}

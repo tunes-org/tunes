@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tunes.dev/schemas/v0.1.0/consent-metadata.schema.json",
+  "title": "TUNES consent metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "consent_class",
+    "consent_timestamp",
+    "upload_preview_acknowledged",
+    "fields_sent"
+  ],
+  "properties": {
+    "schema_version": { "$ref": "common.schema.json#/$defs/schemaVersion" },
+    "consent_class": { "$ref": "common.schema.json#/$defs/consentClass" },
+    "consent_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "upload_preview_acknowledged": { "type": "boolean", "const": true },
+    "fields_sent": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "description": "Exact field list shown to the contributor before upload."
+    },
+    "withdrawal_handle": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9_-]{8,64}$",
+      "description": "Pseudonymous handle for withdrawal requests — not public identity."
+    },
+    "locale": { "type": "string", "minLength": 2, "maxLength": 10 }
+  }
+}

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Programme docs (machine index)
+    url: https://github.com/tunes-org/tunes/blob/main/docs/machine/README.md
+    about: Charter, ADRs, schemas, and research live in this repo.
+  - name: Backlog epics (markdown)
+    url: https://github.com/tunes-org/tunes/blob/main/docs/machine/05-github-backlog.md
+    about: Epic definitions before opening child tasks.
